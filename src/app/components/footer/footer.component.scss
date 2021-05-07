@@ -1,0 +1,98 @@
+%link {
+    @apply text-base border-b border-solid border-transparent text-gray-500 transition-colors duration-100 md:duration-500 ease-in-out;
+}
+
+div.footer-top {
+    @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-x-0 lg:gap-x-10 gap-y-10 lg:gap-y-0 container mx-auto px-0 lg:px-2 py-0 lg:py-8;
+
+    div.certification {
+        @apply order-last md:order-first col-span-1 md:col-span-3 lg:col-span-2 space-y-8 md:space-y-4 pb-10 lg:pb-0;
+
+        div {
+            @apply flex justify-around space-x-6;
+
+            p {
+                @apply text-justify text-base md:text-lg text-gray-700;
+            }
+
+            img {
+                @apply h-20 md:h-24 my-2;
+            }
+        }
+    }
+
+    div.link-footer {
+
+        @apply col-span-1 flex flex-row lg:flex-col; 
+    
+        h3 {
+            @apply text-xl font-medium text-right w-full;
+        }
+    
+        ul {
+            @apply mt-0 lg:mt-6 ml-10 lg:ml-0 text-left lg:text-right w-full lg:w-auto;
+            li {
+                @apply mb-2;
+                a {
+                    @extend %link;
+                    @apply hover:border-blue-400 hover:text-blue-400;
+                }
+            }
+        }
+    }
+}
+
+div.footer-bottom {
+    @apply grid grid-cols-1 lg:grid-cols-2;
+
+    .follow-adress {
+        @apply flex justify-around;
+
+        h4 {
+            @apply text-lg font-medium mb-2;
+        }
+
+        p {
+            @apply text-gray-600 italic text-xs ml-4;
+        }
+
+        div.social {
+            @apply flex sm:justify-center xl:justify-start;
+
+            %icon-social {
+                @apply w-8 h-8 rounded-full text-center py-1 text-gray-600 hover:text-white transition duration-100 md:duration-500 ease-in-out cursor-pointer;
+            }
+
+            .icon-fa {
+                @extend %icon-social;
+                @apply hover:bg-blue-600;
+            }
+            
+            .icon-li {
+                @extend %icon-social;
+                @apply ml-2 hover:bg-blue-400;
+            }
+            
+            .icon-wa {
+                @extend %icon-social;
+                @apply ml-2 hover:bg-green-300;
+            }
+        }
+    }
+
+    .rights {
+        @apply flex justify-center lg:justify-around pt-12 lg:pt-4;
+
+        div {
+            @apply text-center lg:text-right;
+
+            a {
+                @apply text-gray-500 text-sm md:text-lg font-normal;
+            }
+            p {
+                @apply text-gray-400 text-sm font-light;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,50 @@
+<header class="bg-white py-2 md:py-4 shadow-sm">
+    <div class="container px-4 mx-auto md:flex md:items-center">
+
+        <div class="flex justify-between items-center">
+            <a routerLink="" class="font-bold text-xl text-blue-500">LAGALM</a>
+            <button
+                (click)="collapse()"
+                class="px-3 py-1 rounded md:hidden hover:shadow-sm transition duration-200"
+                id="navbar-toggle">
+                <svg id="Layer_1" enable-background="new 0 0 512 512" height="20" width="20" viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z" />
+                    <path
+                        d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z" />
+                    <path
+                        d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z" />
+                </svg>
+            </button>
+        </div>
+
+        <nav class="md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse" [ngClass]="toggle ? 'flex' : 'hidden'">
+
+            <a routerLink="home" routerLinkActive="nav-item-active"
+                class="nav-item">Incio</a>
+            <a routerLink="about" routerLinkActive="nav-item-active"
+                class="nav-item">Nosotros</a>
+            <a routerLink="services" routerLinkActive="nav-item-active"
+                class="nav-item">Servicios</a>
+            <a routerLink="contact" routerLinkActive="nav-item-active"
+                class="nav-item">Contacto</a>
+
+            <div class="inline-flex items-center text-gray-800 space-x-2 pl-10">
+
+                <a routerLink="es" routerLinkActive="nav-translator-active"
+                    class="nav-translator">
+                    ES
+                </a>
+                <hr class="h-full border-r-2 border-blue-200">
+                <a routerLink="en" routerLinkActive="nav-translator-active"
+                    class="nav-translator">
+                    EN
+                </a>
+
+            </div>
+            
+        </nav>
+
+    </div>
+</header>

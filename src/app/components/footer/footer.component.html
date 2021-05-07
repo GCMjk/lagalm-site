@@ -1,0 +1,136 @@
+<footer class="bg-gray-200 pt-10 px-6 pb-5 md:py-12 mt-10 md:mt-12 rounded-t-lg">
+
+    <div class="footer-top">
+
+        <!-- certification -->
+        <div class="certification">
+
+            <div>
+                <img [src]="logo.route" [alt]="logo.name">
+                <p>
+                    {{ certificate }}
+                </p>
+            </div>
+
+            <div>
+                <img [src]="bureau.route" [alt]="bureau.name">
+                <img [src]="iso.route" [alt]="iso.name">
+            </div>
+
+        </div>
+
+        <div class="link-footer">
+
+            <h3> {{ link.about.title }} </h3>
+
+            <ul>
+                <li>
+                    <a routerLink="home">
+                        {{link.about.li.why}}
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="home">
+                        {{link.about.li.solutions}}
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="about">
+                        {{link.about.li.history}}
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="about">
+                        {{link.about.li.politics}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="link-footer">
+
+            <h3> {{ link.services.title }} </h3>
+
+            <ul>
+                <li>
+                    <a routerLink="services">
+                        {{ link.services.li.know }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="link-footer">
+
+            <h3> {{ link.contact.title }} </h3>
+
+            <ul>
+                <li>
+                    <a routerLink="contact">
+                        {{ link.contact.li.weContact }}
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="#">
+                        {{ link.contact.li.email }}
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="#">
+                        {{ link.contact.li.phone }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <hr class="border rounded border-red-400 opacity-60 mx-0 md:mx-16 my-8">
+
+    <div class="footer-bottom">
+
+        <div class="follow-adress">
+
+            <div>
+                <h4> {{ link.follow.title }} </h4>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/Lagalm" target="_blank"
+                        class="icon-fa">
+                        <i class="fab fa-facebook-f">F</i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" target="_blank"
+                        class="icon-li">
+                        <i class="fab fa-linkedin-in">L</i>
+                    </a>
+                    <a href="https://www.whatsapp.com" target="_blank"
+                        class="icon-wa">
+                        <i class="fab fa-whatsapp">W</i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4> {{ link.adress.title }} </h4>
+                <p>
+                    #23, Sta Maria Cuautepec.<br>
+                    54949 Fuentes del Valle, Méx.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="rights">
+            <div>
+                <a routerLink="home">
+                    Lagalm Industrial S.A. de C.V.
+                </a>
+                <p>
+                    Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>

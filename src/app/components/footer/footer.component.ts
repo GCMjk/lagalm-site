@@ -1,12 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { environment } from '../../../environments/environment';
 
+import { faFacebookF, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
+
+  faFacebookF = faFacebookF;
+  faLinkedinIn = faLinkedinIn;
+  faWhatsapp = faWhatsapp;
 
   link = {
     about: {

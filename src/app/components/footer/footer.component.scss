@@ -26,11 +26,11 @@ div.footer-top {
         @apply col-span-1 flex flex-row lg:flex-col; 
     
         h3 {
-            @apply text-xl font-medium text-right w-full;
+            @apply text-2xl font-medium text-right w-full;
         }
     
         ul {
-            @apply mt-0 lg:mt-6 ml-10 lg:ml-0 text-left lg:text-right w-full lg:w-auto;
+            @apply mt-0 lg:mt-6 ml-4 lg:ml-0 text-left lg:text-right w-full lg:w-auto;
             li {
                 @apply mb-2;
                 a {

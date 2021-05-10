@@ -22,13 +22,13 @@
         <nav class="md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse" [ngClass]="toggle ? 'flex' : 'hidden'">
 
             <a routerLink="home" routerLinkActive="nav-item-active"
-                class="nav-item">Incio</a>
+                class="nav-item"> {{ 'nav.HOME' | translate }} </a>
             <a routerLink="about" routerLinkActive="nav-item-active"
-                class="nav-item">Nosotros</a>
+                class="nav-item"> {{ 'nav.ABOUTUS' | translate }} </a>
             <a routerLink="services" routerLinkActive="nav-item-active"
-                class="nav-item">Servicios</a>
+                class="nav-item"> {{ 'nav.SERVICES' | translate }} </a>
             <a routerLink="contact" routerLinkActive="nav-item-active"
-                class="nav-item">Contacto</a>
+                class="nav-item"> {{ 'nav.CONTACT' | translate }} </a>
 
             <div class="inline-flex items-center text-gray-800 space-x-2 pl-10">
 

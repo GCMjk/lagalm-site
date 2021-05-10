@@ -7,7 +7,7 @@
 }
 
 .nav-translator {
-    @apply bg-white rounded hover:bg-blue-300 hover:text-white transition-colors duration-300 p-1
+    @apply bg-white rounded hover:bg-blue-300 hover:text-white focus:outline-none transition-colors duration-300 p-1
 }
 
 .nav-translator-active {

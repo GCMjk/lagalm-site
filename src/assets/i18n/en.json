@@ -1,0 +1,24 @@
+{
+    "nav": {
+        "HOME": "Home",
+        "ABOUTUS": "About us",
+        "SERVICES": "Services",
+        "CONTACT": "Contact"
+    },
+    "footer": {
+        "CERTIFICATE": "We are certified under the NOM ISO 9001:2015 to achieve adequate processes that fulfil the highest standards for our clients, including the assessment, design, production, distribution, tooling and even materials.",
+        "ABOUTUS": "About us",
+        "WHY": "Why lagalm?",
+        "SOLUTIONS": "Solutions",
+        "STORY": "Story",
+        "POLICIES": "Policies",
+        "SERVICES": "Services",
+        "KNOW": "Know them",
+        "CONTACT": "Contact",
+        "WECONTACT": "We contact you...",
+        "FOLLOWUS": "Follow us",
+        "ADRESS": "Adress",
+        "RIGHTS": "All rights reserved."
+    }
+    
+}

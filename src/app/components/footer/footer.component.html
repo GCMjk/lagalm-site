@@ -8,7 +8,7 @@
             <div>
                 <img [src]="logo.route" [alt]="logo.name">
                 <p>
-                    {{ certificate }}
+                    {{ 'footer.CERTIFICATE' | translate }}
                 </p>
             </div>
 
@@ -21,27 +21,27 @@
 
         <div class="link-footer">
 
-            <h3> {{ link.about.title }} </h3>
+            <h3> {{ 'footer.ABOUTUS' | translate }} </h3>
 
             <ul>
                 <li>
                     <a routerLink="home">
-                        {{link.about.li.why}}
+                        {{ 'footer.WHY' | translate }}
                     </a>
                 </li>
                 <li>
                     <a routerLink="home">
-                        {{link.about.li.solutions}}
+                        {{ 'footer.SOLUTIONS' | translate }}
                     </a>
                 </li>
                 <li>
                     <a routerLink="about">
-                        {{link.about.li.history}}
+                        {{ 'footer.STORY' | translate }}
                     </a>
                 </li>
                 <li>
                     <a routerLink="about">
-                        {{link.about.li.politics}}
+                        {{ 'footer.POLICIES' | translate }}
                     </a>
                 </li>
             </ul>
@@ -49,12 +49,12 @@
 
         <div class="link-footer">
 
-            <h3> {{ link.services.title }} </h3>
+            <h3> {{ 'footer.SERVICES' | translate }} </h3>
 
             <ul>
                 <li>
                     <a routerLink="services">
-                        {{ link.services.li.know }}
+                        {{ 'footer.KNOW' | translate }}
                     </a>
                 </li>
             </ul>
@@ -62,22 +62,22 @@
 
         <div class="link-footer">
 
-            <h3> {{ link.contact.title }} </h3>
+            <h3> {{ 'footer.CONTACT' | translate }} </h3>
 
             <ul>
                 <li>
                     <a routerLink="contact">
-                        {{ link.contact.li.weContact }}
+                        {{ 'footer.WECONTACT' | translate }}
                     </a>
                 </li>
                 <li>
                     <a routerLink="#">
-                        {{ link.contact.li.email }}
+                        contacto@lagalm.mx
                     </a>
                 </li>
                 <li>
                     <a routerLink="#">
-                        {{ link.contact.li.phone }}
+                        55 1579 4661
                     </a>
                 </li>
             </ul>
@@ -92,7 +92,7 @@
         <div class="follow-adress">
 
             <div>
-                <h4> {{ link.follow.title }} </h4>
+                <h4> {{ 'footer.FOLLOWUS' | translate }} </h4>
 
                 <div class="social">
                     <a href="https://www.facebook.com/Lagalm" target="_blank"
@@ -111,7 +111,7 @@
             </div>
 
             <div>
-                <h4> {{ link.adress.title }} </h4>
+                <h4> {{ 'footer.ADRESS' | translate }} </h4>
                 <p>
                     #23, Sta Maria Cuautepec.<br>
                     54949 Fuentes del Valle, Méx.
@@ -126,7 +126,7 @@
                     Lagalm Industrial S.A. de C.V.
                 </a>
                 <p>
-                    Todos los derechos reservados.
+                    {{ 'footer.RIGHTS' | translate }}
                 </p>
             </div>
         </div>

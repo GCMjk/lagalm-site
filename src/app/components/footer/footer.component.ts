@@ -14,38 +14,6 @@ export class FooterComponent implements OnInit {
   faLinkedinIn = faLinkedinIn;
   faWhatsapp = faWhatsapp;
 
-  link = {
-    about: {
-      title: 'Sobre nosotros',
-      li: {
-        why: '¿Por que Lagalm?',
-        solutions: 'Soluciones',
-        history: 'Historia',
-        politics: 'Politicas'
-      }
-    },
-    services: {
-      title: 'Servicios',
-      li: {
-        know: 'Conocelos'
-      }
-    },
-    contact: {
-      title: 'Contacto',
-      li: {
-        weContact: 'Te contactamos',
-        email: 'contacto@lagalm.mx',
-        phone: '55 1579 4661'
-      }
-    },
-    follow: {
-      title: 'Siguenos'
-    },
-    adress: {
-      title: 'Dirección'
-    }
-  }
-
   logo = {
     route: environment.lagalmLogo,
     name: 'Logo Lagalm Industrial'
@@ -60,8 +28,6 @@ export class FooterComponent implements OnInit {
     route: '../../../assets/logos/iso/iso.png',
     name: 'Certificado ISO:9001'
   };
-
-  certificate = 'Estamos certificados por la norma ISO 9001:2015 para lograr procesos adecuados que cumplan con los más altos estándares de nuestros clientes, desde la asesoría, el diseño, la producción, distribución, herramentales y hasta materiales.'
 
   constructor() { }
 

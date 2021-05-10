@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "HOME": "Inicio",
+        "ABOUTUS": "Nosotros",
+        "SERVICES": "Servicios",
+        "CONTACT": "Contacto"
+    },
+    "footer": {
+        "CERTIFICATE": "Estamos certificados por la norma ISO 9001:2015 para lograr procesos adecuados que cumplan con los más altos estándares de nuestros clientes, desde la asesoría, el diseño, la producción, distribución, herramentales y hasta materiales.",
+        "ABOUTUS": "Nosotros",
+        "WHY": "¿Porque Lagalm?",
+        "SOLUTIONS": "Soluciones",
+        "STORY": "Historia",
+        "POLICIES": "Politicas",
+        "SERVICES": "Servicios",
+        "KNOW": "Conócelos",
+        "CONTACT": "Contacto",
+        "WECONTACT": "Te contactamos...",
+        "FOLLOWUS": "Siguenos",
+        "ADRESS": "Dirección",
+        "RIGHTS": "Todos los derechos reservados."
+    }
+}

@@ -1,5 +1,5 @@
 .nav-item {
-    @apply p-2 lg:px-4 md:mx-2 text-gray-800 uppercase border-b-2 border-transparent hover:border-blue-400 duration-500
+    @apply p-2 lg:px-4 md:mx-2 text-blue-900 uppercase border-b-2 border-transparent hover:border-blue-400 duration-500
 }
 
 .nav-item-active {
@@ -7,9 +7,9 @@
 }
 
 .nav-translator {
-    @apply bg-white rounded hover:bg-blue-300 hover:text-white focus:outline-none transition-colors duration-300 p-1
+    @apply bg-white text-blue-200 rounded hover:bg-blue-200 p-1 hover:text-white focus:outline-none transition-colors duration-300
 }
 
 .nav-translator-active {
-    @apply font-medium text-white bg-blue-300
+    @apply font-bold text-blue-300
 }

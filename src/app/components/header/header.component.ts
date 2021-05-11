@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
+
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -7,22 +10,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent {
 
-  company = 'Lagalm';
+  logo = {
+    route: environment.lagalmLogo,
+    name: 'Logo Lagalm Industrial'
+  };
+
   toggle = false;
+  lang = true;
+
+  constructor(private translate: TranslateService) {
+    translate.setDefaultLang('es');
+  }
 
   collapse() {
-    console.log(this.toggle);
 
     if(this.toggle == false){
       this.toggle = true;
     }else{
       this.toggle = false;
     }
+
   }
 
-  /* clickEvent() {
-    [ngClass]="{'bg-gray-200': toggle}"
-    this.toggle = !this.toggle;
-  } */
+  useLanguage(language: string): void {
+    this.translate.use(language);
 
+    if (this.lang == false) {
+
+      this.lang = true;
+
+    }else {
+
+      this.lang = false;
+
+    }
+
+  }
+  
 }

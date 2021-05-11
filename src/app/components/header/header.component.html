@@ -2,7 +2,9 @@
     <div class="container px-4 mx-auto md:flex md:items-center">
 
         <div class="flex justify-between items-center">
-            <a routerLink="" class="font-bold text-xl text-blue-500">LAGALM</a>
+            <a routerLink="home"> 
+                <img class="h-10 w-auto" [src]="logo.route" [alt]="logo.name"> 
+            </a>
             <button
                 (click)="collapse()"
                 class="px-3 py-1 rounded md:hidden hover:shadow-sm transition duration-200"
@@ -30,17 +32,20 @@
             <a routerLink="contact" routerLinkActive="nav-item-active"
                 class="nav-item"> {{ 'nav.CONTACT' | translate }} </a>
 
-            <div class="inline-flex items-center text-gray-800 space-x-2 pl-10">
+            <div class="inline-flex justify-center items-center text-gray-800 space-x-2 pl-0 md:pl-10 mt-10 md:mt-0">
 
-                <a routerLink="es" routerLinkActive="nav-translator-active"
+                <!-- [ngClass]="{'nav-translator-active': useLanguage('es')}" *ngIf="useLanguage('es') === lang = 'es" -->
+                <button (click)="useLanguage('es')" [ngClass]="{'nav-translator-active': lang == true}"
                     class="nav-translator">
                     ES
-                </a>
-                <hr class="h-full border-r-2 border-blue-200">
-                <a routerLink="en" routerLinkActive="nav-translator-active"
+                </button>
+
+                <hr class="h-full border-r-2 border-red-200">
+
+                <button (click)="useLanguage('en')" [ngClass]="{'nav-translator-active': lang == false}"
                     class="nav-translator">
                     EN
-                </a>
+                </button>
 
             </div>
             

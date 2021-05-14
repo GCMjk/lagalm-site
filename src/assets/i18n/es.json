@@ -1,4 +1,6 @@
 {
+    "LAGALM": "Lagalm",
+    "LAGALMIND": "Lagalm Industrial S.A. de C.V.",
     "nav": {
         "HOME": "Inicio",
         "ABOUTUS": "Nosotros",
@@ -19,5 +21,47 @@
         "FOLLOWUS": "Siguenos",
         "ADRESS": "Dirección",
         "RIGHTS": "Todos los derechos reservados."
+    },
+    "home": {
+        "landing": {
+            "DESIGN": "Diseño",
+            "MANUFACTURE": "Manufactura",
+            "LOGISTICS": "Logistica",
+            "PLASINJ": "Soluciones integrales en inyección de plástico."
+        },
+        "section": {
+            "TITLE": "Lorem ipsum dolor sit amet.",
+            "PARAGRAPH": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum voluptatum id ea quidem laudantium similique repudiandae voluptatem nesciunt magni!",
+            "EMPLOYEES": "Empleados",
+            "CUSTOMERS": "Clientes",
+            "PROJECTS": "Proyectos"
+        },
+        "us": {
+            "LAG": "Lagalm Industrial es una empresa con amplia experiencia en los procesos de diseño y manufactura de partes plásticas moldeadas por inyección. Contamos además con un grupo de jóvenes colaboradores y creativos, comprometidos con la satisfacción total de sus clientes y socios comerciales. Ofrecemos soluciones integrales que nos hacen flexibles en un mercado cambiante y cada vez más demandante de productos de alta calidad.",
+            "SOLUTION": "Soluciones",
+            "SOLUTIONS": "Tenemos diferentes servicios disponibles para cualquier etapa de su proyecto, desde el diseño, medición, manufactura y la logística de entrega de su mercancía en planta a través de una comunicación constante con nuestros clientes."
+        },
+        "services": {
+            "SERVICE": "Servicios",
+            "LAGSERVICES": "Como valor agregado que ofrece LAGALM Industrial,",
+            "SERVICES": "dentro de la maquila de productos plásticos, se cuenta con el taller de máquinas y herramientas con tecnología de control numérico para proporcionar mantenimiento correctivo o preventivo a los herramentales de producción.",
+            "KNOW": "Conócelos"
+        },
+        "CUSTOMERS": "Clientes",
+        "contact": {
+            "CONTACTUS": "Contactanos",
+            "WECONTACT": "Te contactamos",
+            "ADVISER": "Un asesor te adenderá",
+            "T-EMAIL": "Lorem ipsum dolor sit.",
+            "D-EMAIL": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+            "BTN-EMAIL": "Enviar",
+            "T-PHONE": "Lorem ipsum dolor.",
+            "D-PHONE": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "BTN-PHONE": "Mensaje",
+            "CONTACT": "Contacto",
+            "INFO": "Info",
+            "SALES": "Ventas",
+            "PHONE": "Teléfono"
+        }
     }
 }

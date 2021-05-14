@@ -1,4 +1,4 @@
-<header class="bg-white py-2 md:py-4 shadow-sm">
+<header class=" py-2 md:py-4 shadow-sm">
     <div class="container px-4 mx-auto md:flex md:items-center">
 
         <div class="flex justify-between items-center">
@@ -32,7 +32,7 @@
             <a routerLink="contact" routerLinkActive="nav-item-active"
                 class="nav-item"> {{ 'nav.CONTACT' | translate }} </a>
 
-            <div class="inline-flex justify-center items-center text-gray-800 space-x-2 pl-0 md:pl-10 mt-10 md:mt-0">
+            <div class="inline-flex justify-center items-center space-x-2 pl-0 md:pl-10 mt-10 md:mt-0">
 
                 <!-- [ngClass]="{'nav-translator-active': useLanguage('es')}" *ngIf="useLanguage('es') === lang = 'es" -->
                 <button (click)="useLanguage('es')" [ngClass]="{'nav-translator-active': lang == true}"

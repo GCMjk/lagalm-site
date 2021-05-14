@@ -1,4 +1,6 @@
 {
+    "LAGALM": "Lagalm",
+    "LAGALMIND": "Lagalm Industrial S.A. de C.V.",
     "nav": {
         "HOME": "Home",
         "ABOUTUS": "About us",
@@ -19,6 +21,47 @@
         "FOLLOWUS": "Follow us",
         "ADRESS": "Adress",
         "RIGHTS": "All rights reserved."
+    },
+    "home": {
+        "landing": {
+            "DESIGN": "Design",
+            "MANUFACTURE": "Manufacture",
+            "LOGISTICS": "Logistics",
+            "PLASINJ": "Comprehensive solutions in plastic injection."
+        },
+        "section": {
+            "TITLE": "Lorem ipsum dolor sit amet.",
+            "PARAGRAPH": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum voluptatum id ea quidem laudantium similique repudiandae voluptatem nesciunt magni!",
+            "EMPLOYEES": "Employees",
+            "CUSTOMERS": "Customers",
+            "PROJECTS": "Projects"
+        },
+        "us": {
+            "LAG": "Lagalm Industrial is a company with a wide experience at the process of design and manufacture of plastic parts at plastic injection. We have a group of young and creative collaborators, committed with the total satisfaction of their clients and commercial partners. We offer integral solutions that make us flexible in a changing and more challenging and demanding market of high quality products.",
+            "SOLUTION": "Solutions",
+            "SOLUTIONS": "We have different available services for each stage of your project, from the design, measuring, manufacture to logistics, delivering your merchandise at your own company throughout a constant communication with our clients."
+        },
+        "services": {
+            "SERVICE": "Services",
+            "LAGSERVICES": "As an added value offered by LAGALM Industrial,",
+            "SERVICES": "within the maquila of plastic products, there is a machine shop and tools with numerical control technology to provide corrective or preventive maintenance to the production tooling.",
+            "KNOW": "Learn more"
+        },
+        "CUSTOMERS": "Customers",
+        "contact": {
+            "CONTACTUS": "Contact us",
+            "WECONTACT": "Contact you",
+            "ADVISER": "An advisor will assist you",
+            "T-EMAIL": "Lorem ipsum dolor sit.",
+            "D-EMAIL": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+            "BTN-EMAIL": "Send",
+            "T-PHONE": "Lorem ipsum dolor.",
+            "D-PHONE": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "BTN-PHONE": "Message",
+            "CONTACT": "Contact",
+            "INFO": "Info",
+            "SALES": "Sales",
+            "PHONE": "Phone"
+        }
     }
-    
 }

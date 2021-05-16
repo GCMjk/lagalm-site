@@ -1,7 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { faArrowRight, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faCalendar, faMapPin, faAtlas } from '@fortawesome/free-solid-svg-icons';
 declare var anime: any;  
-  
 
 @Component({
   selector: 'app-home',
@@ -12,26 +11,13 @@ export class HomeComponent implements OnInit {
 
   faArrowRight = faArrowRight;
   faCalendar = faCalendar;
+  faMapPin = faMapPin;
+  faAtlas = faAtlas;
 
   contactMail = "contacto@lagalm.mx";
   infoMail = "info@lagalm.mx";
   salesMail = "ventas@lagalm.mx";
   phone = "55 1579 4661";
-
-  cards = [
-    {
-      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo soluta officia tenetur, nulla aperiam ipsam veniam reprehenderit reiciendis molestias quis?",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
-    {
-      txt: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, ipsa.",
-      desc: "Lorem ipsum dolor sit amet consectetur elit."
-    },
-    {
-      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem itaque adipisci incidunt accusantium ullam.",
-      desc: "Lorem ipsum sit amet adipisicing sit amet elit."
-    }
-  ];
 
   customers = [
     {
@@ -53,6 +39,36 @@ export class HomeComponent implements OnInit {
     {
       img: "../../assets/logos/customers/pmsteele.png",
       alt: "Logo PMSteele"
+    }
+  ];
+
+  items = [
+    {
+      icon: faMapPin,
+      title: "Lorem",
+      text: "We promise to offer you the best rate we can - at par with the industry standard."
+    },
+    {
+      icon: faAtlas,
+      title: "Ipsum",
+      text: "We promise to offer you the best rate we can - at par with the industry standard."
+    }
+  ];
+
+  contacts = [
+    {
+      icon: "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
+      title: "Lorem ipsum dolor sit.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      method: "contacto@lagalm.mx",
+      btn: "Enviar"
+    },
+    {
+      icon: "https://assets6.lottiefiles.com/packages/lf20_5xaqtoj5.json",
+      title: "Lorem ipsum dolor sit.",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      method: "55 1579 4661",
+      btn: "Mensaje"
     }
   ];
 

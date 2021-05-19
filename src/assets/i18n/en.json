@@ -63,5 +63,67 @@
             "SALES": "Sales",
             "PHONE": "Phone"
         }
+    },
+    "about": {
+        "why": {
+            "CHOOSE": "Why would I choose",
+            "INDUSTRIAL": "Lagalm Industrial?",
+            "WHY": "We are a 100% Mexican company, with 16 years of active experience at the plastic injection and the mold making industry, through the years we have developed and implemented processes that allowed us to be an efficient and committed working team, that offers integral solutions to our clients, starting from the concept of your ideas till a final functional product and with quality standards above many of our competitors."
+        },
+        "history": {
+            "HISTORY": "HISTORY",
+            "BORN": "Was born in the year 2005 in Estado de México due to a development and expansion plan. Nevertheless, our founding partner had already more than a decade of experience when founding our company, this is why our experience in the market is even more extensive."
+        },
+        "young": {
+            "YOUNG": "Committed youth",
+            "COMMITTED": "We have a group of young collaborators, creative and committed to the total satisfaction of our customers and business partners."
+        },
+        "mve": [
+            {
+                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "TEXT": "Mision",
+                "CONTENTS": "LAGALM´S goal is to create high value products for our clients through an integration of design, manufacture, merchandising and distribution processes of plastic and metal products. We develop robust processes and procedures that allow us to offer specific solutions to each one of our clients."
+            },
+            {
+                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "TEXT": "Vision",
+                "CONTENTS": "LAGALM is: creative, efficient and disciplined, it has the objective of satisting and succeed our clients expectations, assuring for them high quality standards in products and services, positioning the company as one of the best at developing, manufacture, sales and distribution of plástic and metal products for the industry in general, allowing to enlarge our national and international market in the pursuit of new challenges."
+            },
+            {
+                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "TEXT": "Ethics code",
+                "CONTENTS": "At LAGALM we are committed to get the biggest satisfaction of our clients, providing the best product and efficiency in our services, observing and improving day after day our processes, accomplishing our compromises with the highest quality standards, being supported by our extensive experience in the market."
+            }
+        ],
+        "politic": {
+            "POLITIC": "Quality politics",
+            "QUALITY": "As a manufacturer of plastic and metal parts we are committed to achieving the satisfaction of our customers, delivering products according to their requirements, the legal and applicable regulations, on the required date and with the established quality, through the continuous improvement of our Quality management system."
+        },
+        "testimonials": [
+            {
+                "TEXT": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid architecto cupiditate tempora omnis ad culpa ut repellat ducimus delectus? Quisquam distinctio pariatur ea ipsum eius, iusto vitae autem ullam doloremque.",
+                "IMG": "https://placeimg.com/480/480/any",
+                "NAME": "Lorem, ipsum.1.en",
+                "POSITION": "Lorem, ipsum dolor."
+            },
+            {
+                "TEXT": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid architecto cupiditate tempora omnis ad culpa ut repellat ducimus delectus? Quisquam distinctio pariatur ea ipsum eius, iusto vitae autem ullam doloremque.",
+                "IMG": "https://placeimg.com/480/480/any",
+                "NAME": "Lorem, ipsum.2.en",
+                "POSITION": "Lorem, ipsum dolor."
+            },
+            {
+                "TEXT": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid architecto cupiditate tempora omnis ad culpa ut repellat ducimus delectus? Quisquam distinctio pariatur ea ipsum eius, iusto vitae autem ullam doloremque.",
+                "IMG": "https://placeimg.com/480/480/any",
+                "NAME": "Lorem, ipsum.3.en",
+                "POSITION": "Lorem, ipsum dolor."
+            },
+            {
+                "TEXT": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid architecto cupiditate tempora omnis ad culpa ut repellat ducimus delectus? Quisquam distinctio pariatur ea ipsum eius, iusto vitae autem ullam doloremque.",
+                "IMG": "https://placeimg.com/480/480/any",
+                "NAME": "Lorem, ipsum.4.en",
+                "POSITION": "Lorem, ipsum dolor."
+            }
+        ]
     }
 }

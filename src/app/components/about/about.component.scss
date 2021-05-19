@@ -1,0 +1,181 @@
+div.why-section {
+    @apply pt-20 md:pt-32;
+
+    div.why {
+        @apply relative block inset-y-0 w-full;
+
+        div.choose {
+            @apply text-center max-w-screen-xl mt-6 md:mt-12 px-4 sm:px-6 mx-auto;
+
+            h2 {
+                @apply text-4xl tracking-tight leading-10 font-bold text-gray-900 sm:text-5xl sm:leading-none md:text-5xl;
+                span {
+                    @apply text-lagalm-300;
+                }
+            }
+            p {
+                @apply mt-3 max-w-md mx-auto text-lg md:text-2xl text-gray-500 md:mt-5 md:max-w-3xl;
+            }
+        }
+    }
+
+    div.img-center {
+        @apply relative mt-12;
+
+        div.img-bg {
+            @apply absolute inset-0 flex flex-col;
+
+            .bg-color {
+                @apply flex-1 w-full bg-lagalm-400;
+            }
+        }
+
+        div.img {
+            @apply max-w-screen-lg mx-auto px-6 sm:px-20;
+
+            img {
+                @apply relative rounded-lg shadow-lg;
+            }
+        }
+    }
+
+    div.history {
+        @apply bg-lagalm-400;
+
+        div.history-lagalm {
+            @apply max-w-screen-lg mx-auto pt-16 pb-16 px-4 sm:px-6 md:pb-20 lg:px-8;
+
+            h3 {
+                @apply text-left text-gray-200 text-4xl md:text-6xl font-semibold uppercase tracking-wide;
+            }
+
+            h2 {
+                @apply text-3xl font-extrabold tracking-tight text-gray-400;
+            }
+
+            p {
+                @apply mt-4 text-lg md:text-2xl text-gray-100;
+            }
+
+        }
+    }
+}
+
+div.about-section {
+    @apply space-y-40 my-20 mx-6;
+
+    div.committed-youth {
+        @apply flex flex-col container mx-auto;
+
+        div.youth-img {
+            @apply mx-0 lg:mx-10 self-start lg:self-center;
+            img {
+                @apply w-96 lg:w-full bg-center bg-cover rounded shadow-md;
+            }
+        }
+
+        div.youth-text {
+            @apply text-right -mt-2 md:-mt-4 lg:-mt-6 mx-2;
+            h3 {
+                @apply text-2xl lg:text-4xl xl:text-6xl font-bold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-blue-200 via-indigo-600 to-blue-200 animate-gradient-x;
+            }
+            p {
+                @apply text-xl lg:text-2xl font-light text-gray-800 leading-relaxed mt-6 px-14;
+            }
+        }
+    }
+
+    div.mve {
+        @apply grid grid-cols-1 lg:grid-cols-3 container mx-auto;
+
+        div.mve-card {
+            @apply flex flex-col overflow-hidden bg-white rounded-lg shadow-xl mt-4 w-auto mx-4;
+
+            div.media {
+                @apply h-80 w-auto;
+                img {
+                    @apply inset-0 h-full w-full object-cover object-center;
+                }
+            }
+
+            div.content {
+                @apply w-full py-4 px-6 text-gray-800 flex flex-col justify-between;
+
+                h3 {
+                    @apply font-semibold text-lg leading-tight truncate;
+                }
+                p {
+                    @apply mt-2;
+                }
+            }
+        }
+    }
+
+    div.quality-politics {
+        @apply grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 container mx-auto;
+
+        div.politic {
+            @apply col-span-1 self-end;
+            p {
+                @apply text-blue-900 text-2xl lg:text-4xl font-bold uppercase tracking-wide;
+            }
+        }
+
+        div.img {
+            @apply col-span-1 row-span-2;
+            img {
+                @apply bg-center bg-cover rounded shadow-md;
+            }
+        }
+
+        div.content {
+            @apply col-span-1 mx-8;
+            p {
+                @apply text-xl font-light text-gray-800 leading-relaxed;
+            }
+        }
+    }
+}
+
+.testimony-card {
+    %card-text {
+        @apply text-sm md:text-base lg:text-xl;
+    }
+    @apply p-6 md:p-8 lg:p-12 space-y-6 md:space-y-10 rounded-xl shadow-lg my-10;
+
+    div.card-top {
+        @apply flex justify-between mx-2 lg:mx-6;
+        p {
+            @apply font-light;
+            @extend %card-text;
+        }
+        fa-icon {
+            @apply text-sm sm:text-base md:text-2xl text-lagalm-400 self-end -mb-2;
+        }
+    }
+    hr {
+        @apply w-full mx-auto border border-red-300 rounded-full;
+    }
+    div.card-bottom {
+        @apply flex justify-around xl:justify-center xl:space-x-12;
+
+        div.profile-img {
+            img {
+                @apply h-8 md:h-12 lg:h-24 w-8 md:w-12 lg:w-24 rounded-full shadow-lg;
+            }
+        }
+        div.profile-name {
+            p.name {
+                @apply font-bold;
+                @extend %card-text;
+
+            }
+            p.position {
+                @apply font-light ml-1 md:ml-2;
+                @extend %card-text;
+
+            }
+        }
+
+    }
+}

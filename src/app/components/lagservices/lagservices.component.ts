@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faArrowRight, faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-lagservices',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lagservices.component.scss']
 })
 export class LagservicesComponent implements OnInit {
+
+  faArrowRight = faArrowRight;
+  faArrowAltCircleRight = faArrowAltCircleRight;
 
   constructor() { }
 

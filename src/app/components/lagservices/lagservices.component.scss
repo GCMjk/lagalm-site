@@ -1,0 +1,95 @@
+div.service-img {
+    @apply w-screen h-2/3 flex items-center bg-center bg-cover;
+    background-image: url('https://lagalm.mx/img/lag.jpg');
+
+    div.service {
+        @apply container mx-auto text-center space-y-4;
+        h2 {
+            @apply text-4xl md:text-6xl lg:text-8xl text-gray-900 font-bold;
+        }
+        p {
+            @apply text-base md:text-lg font-light;
+        }
+    }
+
+}
+
+div.services-section {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-16 -mt-10 mb-20 mx-auto container;
+
+    div.service-card {
+        @apply h-96 w-auto bg-cover bg-center shadow-md rounded-t-lg transition duration-500 ease-in-out transform hover:scale-105;
+        
+        div.card {
+            @apply h-full bg-gradient-to-t from-black to-transparent p-6;
+            
+            div.top-card{
+                @apply flex h-4/6 w-full;
+                h3 {
+                    @apply text-gray-200 text-lg lg:text-xl font-bold uppercase self-end;
+                    span {
+                        @apply ml-2 text-sm lg:text-base font-light;
+                    }
+                }
+            }
+    
+            div.bottom-card{
+                @apply h-2/6 flex flex-col justify-center;
+
+                div.text-link {
+                    @apply flex flex-row justify-between space-x-4;
+
+                    div.text {
+                        @apply overflow-y-hidden h-20;
+                        p {
+                            @apply text-gray-100 text-base font-light ml-4 text-justify leading-snug;
+                        }
+                    }
+
+                    .link {
+                        @apply self-end;
+                        a {
+                            @apply flex flex-wrap justify-center content-center w-12 lg:w-14 h-12 lg:h-14 rounded-full text-black hover:text-btnLgm bg-btnLgm hover:bg-transparent transition duration-500 ease-in-out cursor-pointer;
+                            fa-icon {
+                                @apply text-2xl lg:text-4xl;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+div.contact-section {
+    @apply bg-cover bg-center h-auto py-20 px-0 lg:px-10;
+    background-image: url('https://placeimg.com/480/480/any');
+
+    div.contact-bg {
+        @apply h-auto w-full flex flex-col justify-center space-y-10 bg-black bg-opacity-40 rounded-none lg:rounded-lg py-20 px-10;
+        
+        div.text {
+            @apply text-center;
+            
+            h4 {
+                @apply text-3xl md:text-4xl lg:text-5xl font-semibold text-lagalm-200 uppercase;
+            }
+            p {
+                @apply text-lg md:text-xl lg:text-2xl font-normal text-white mt-2 lg:mt-6;
+            }
+
+        }
+        
+        div.btn {
+            @apply flex justify-center items-center;
+            
+            a {
+                @apply text-xl md:text-2xl lg:text-3xl font-semibold text-btnLgm hover:text-white bg-transparent hover:bg-btnLgm border border-btnLgm hover:border-transparent rounded-3xl shadow transition duration-200 lg:duration-500 ease-in-out cursor-pointer px-6 py-2;
+            }
+
+        }
+
+    }
+}

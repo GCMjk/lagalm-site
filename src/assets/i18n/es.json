@@ -125,5 +125,47 @@
                 "POSITION": "Lorem, ipsum dolor."
             }
         ]
+    },
+    "services": {
+        "SERVICES": "Servicios",
+        "SERVICES-TEXT": "",
+        "SERVICE-CARD": [
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Moldeo de productos plásticos",
+                "sub": "por inyección de plástico",
+                "text": "Moldeo de resinas termoplásticas​ por inyección.",
+                "link": "lagalm.mx"
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Diseño, desarrollo, reparación, manufactura y mantenimiento",
+                "sub": "de herramentales para inyección de plástico, die cast y troqueles progresivos",
+                "text": "Este es un servicio especial para nuestros clientes que desean la manufactura de sus productos.",
+                "link": ""
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Servicios adicionales complementarios",
+                "text": "Mecanizado de partes metálicas en Centro de Maquinado CNC",
+                "link": "lagalm.mx"
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Servicio de digitalización",
+                "sub": "tridimensional e ingeniería inversa",
+                "text": "Este servicio les permite a nuestros clientes analizar sus productos para lograr procesos más eficientes y precisos, pues podemos proponer mejoras a través de la generación de esquemas, dibujos, planos, modelados y prototipos.",
+                "link": ""
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Logística",
+                "text": "Contamos con la capacidad de entregar la producción de nuestros clientes hasta su planta si así lo requiere.",
+                "link": ""
+            }
+        ],
+        "WEARE": "Estamos para atenderte",
+        "PROVIDE": "Lagalm Industrial está aquí para brindarle más información, responder cualquier pregunta que pueda tener y crear una solución efectiva para sus necesidades de instrucción.",
+        "CONTACT": "Contacto"
     }
 }

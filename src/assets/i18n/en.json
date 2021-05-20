@@ -125,5 +125,47 @@
                 "POSITION": "Lorem, ipsum dolor."
             }
         ]
+    },
+    "services": {
+        "SERVICES": "Services",
+        "SERVICES-TEXT": "",
+        "SERVICE-CARD": [
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Plastic product molding",
+                "sub": "by plastic injection",
+                "text": "Injection molding of thermoplastic resins.",
+                "link": "lagalm.mx"
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Design, development, repair, manufacturing and maintenance",
+                "sub": "of tools for plastic injection, diecast and progressive dies",
+                "text": "This is a special service for our clients who want the manufacture of their products.",
+                "link": ""
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Complementary additional services",
+                "text": "Machining of metal parts in CNC Machining Center",
+                "link": "lagalm.mx"
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Digitization service",
+                "sub": "three-dimensional and reverse engineering",
+                "text": "This service allows our clients to analyze their products to achieve more efficient and precise processes, as we can propose improvements through the generation of diagrams, drawings, plans, models and prototypes.",
+                "link": ""
+            },
+            {
+                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "title": "Logistics",
+                "text": "We have the ability to deliver our clients' production to their plant if required.",
+                "link": ""
+            }
+        ],
+        "WEARE": "We are to serve you",
+        "PROVIDE": "Lagalm Industrial is here to provide you with more information, answer any questions you may have, and create an effective solution for your instructional needs.",
+        "CONTACT": "Contact"
     }
 }

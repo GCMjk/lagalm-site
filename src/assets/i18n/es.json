@@ -167,5 +167,33 @@
         "WEARE": "Estamos para atenderte",
         "PROVIDE": "Lagalm Industrial está aquí para brindarle más información, responder cualquier pregunta que pueda tener y crear una solución efectiva para sus necesidades de instrucción.",
         "CONTACT": "Contacto"
+    },
+    "contact": {
+        "you-need": {
+            "HELP": "¿Necesitas ayuda?",
+            "CONTACTYOU": "Podemos contactarte",
+            "OURTEAM": "¿Interesado en conocer más sobre nuestros servicios? Nuestros equipo se toman el tiempo para resolver sus dudas."
+        },
+        "form": {
+            "LIST": {
+                "TITLE": "Título",
+                "MR": "Sr.",
+                "MRS": "Sra.",
+                "MISS": "Srta.",
+                "ING": "Ing.",
+                "LIC": "Lic."
+            },
+            "NAME": "Nombre",
+            "LASTNAME": "Apellido",
+            "EMAIL": "Correo",
+            "PHONE": "Telefono",
+            "COMPANY": "Empresa",
+            "OCCUPATION": "Ocupación",
+            "ADDRESS": "Dirección",
+            "ZIP": "C.P.",
+            "WRITEUS": "Escríbenos",
+            "BTN": "Contactar"
+        },
+        "FACTORY": "Planta Tultitlán"
     }
 }

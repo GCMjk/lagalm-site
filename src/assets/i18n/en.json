@@ -167,5 +167,33 @@
         "WEARE": "We are to serve you",
         "PROVIDE": "Lagalm Industrial is here to provide you with more information, answer any questions you may have, and create an effective solution for your instructional needs.",
         "CONTACT": "Contact"
+    },
+    "contact": {
+        "you-need": {
+            "HELP": "Need help?",
+            "CONTACTYOU": "We can contact you",
+            "OURTEAM": "Interested in knowing more about our services? Our team take the time to answer your questions."
+        },
+        "form": {
+            "LIST": {
+                "TITLE": "Title",
+                "MR": "Mr.",
+                "MRS": "Mrs.",
+                "MISS": "Miss.",
+                "ING": "Ing.",
+                "LIC": "Lic."
+            },
+            "NAME": "Name",
+            "LASTNAME": "Last name",
+            "EMAIL": "Email",
+            "PHONE": "Phone",
+            "COMPANY": "Company",
+            "OCCUPATION": "Occupation",
+            "ADDRESS": "Address",
+            "ZIP": "ZIP",
+            "WRITEUS": "Write us",
+            "BTN": "Contact"
+        },
+        "FACTORY": "Tultitlán factory"
     }
 }

@@ -1,51 +1,217 @@
-<div class="flex items-center flex-col space-y-4 py-10 w-screen">
-    <p class="text-4xl italic font-bold">Contacto</p>
-    <svg height="200" width="200" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-        y="0px" viewBox="0 0 511.814 511.814" style="enable-background:new 0 0 511.814 511.814;" xml:space="preserve">
-        <g>
-            <path style="fill:#FF5364;" d="M511.814,108.644v191.003c0,3.617-1.437,7.086-3.995,9.644c-2.558,2.558-6.027,3.995-9.644,3.995
-		H129.818c-7.532,0-13.639-6.106-13.639-13.639V26.786c0-7.532,6.106-13.639,13.639-13.639h368.358
-		c7.532,0,13.639,6.106,13.639,13.639V108.644z" />
-            <path style="fill:#FB7B76;" d="M508.407,17.852L327.159,172.627c-7.601,6.418-18.723,6.418-26.324,0L119.587,17.852
-		c2.562-2.984,6.298-4.702,10.231-4.705h368.358C502.109,13.151,505.844,14.869,508.407,17.852z" />
-            <path style="fill:#DF4D60;" d="M506.968,310.01c-2.452,2.119-5.587,3.282-8.828,3.275H129.818c-3.24,0.004-6.374-1.158-8.828-3.275
-		L272.11,148.139l28.725,24.488c7.601,6.418,18.723,6.418,26.324,0l28.654-24.488L506.968,310.01z" />
-            <path style="fill:#4FBA6F;" d="M111.695,153.859l25.335,38.003c5.048,7.571,3.396,17.754-3.787,23.34l-31.197,24.267
-		c-6.767,5.217-8.71,14.593-4.573,22.069c9.154,16.437,17.814,35.858,60.796,78.848s62.42,51.633,78.857,60.787
-		c7.475,4.145,16.857,2.201,22.069-4.573l24.258-31.188c5.589-7.184,15.776-8.836,23.349-3.787l39.203,26.138l44.138,29.405
-		c7.728,5.129,10.06,15.426,5.297,23.384l-20.904,34.834c-5.544,9.421-14.503,16.344-25.017,19.332
-		c-34.737,9.534-111.351,11.476-234.161-111.351S-5.597,183.944,3.937,149.207c2.986-10.513,9.906-19.472,19.324-25.017
-		l34.816-20.904c7.959-4.758,18.252-2.427,23.384,5.297L111.695,153.859z" />
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-        <g>
-        </g>
-    </svg>
+<!-- contact -->
+<div class="container mx-auto pt-20">
+
+      <!-- do you need hep? -->
+      <div class="grid grid-cols-2 gap-10">
+
+            <div class="col-span-2">
+
+                  <h3 class="text-3xl font-extrabold">
+                        {{ 'contact.you-need.HELP' | translate}}
+                  </h3>
+                  <p class="text-xl font-medium ml-4 mb-2">
+                        {{ 'contact.you-need.CONTACTYOU' | translate}}
+                  </p>
+                  <p class="text-md font-normal mx-6">
+                        {{ 'contact.you-need.OURTEAM' | translate}}
+                  </p>
+
+            </div>
+            
+            <div class="">
+                  <iframe class="h-72 w-full rounded-lg shadow-md"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.970010573481!2d-99.12842108468172!3d19.62857983947001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f5b3f950aa5d%3A0x782921184d3d77e3!2sLagalm%20Industrial%20s.a%20de%20c.v.!5e0!3m2!1ses!2smx!4v1618858267594!5m2!1ses!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                  <div class="bg-white -mt-0 shadow-lg rounded-lg overflow-hidden py-6 px-4">
+
+                        <div class="">
+
+                              <div class="inline-flex items-center space-x-2">
+                                    <div class="flex justify-center items-center h-6 w-6 rounded-full m-1 bg-red-50 text-btnLgm">
+                                          <fa-icon [icon]="faMapPin" size="md"></fa-icon>
+                                    </div>
+
+                                    <p class="font-medium">
+                                          {{ 'contact.FACTORY' | translate}}
+                                    </p>
+                              </div>
+
+                              <div class="text-justify text-base px-12">
+                                    <p class="">
+                                          {{ address }}
+                                    </p>
+                              </div>
+
+                        </div>
+
+                  </div>
+            </div>
+
+            <div class="">
+                  <form action="/enviar-email" method="POST">
+                        <div class="grid grid-cols-5 gap-x-4 gap-y-4 p-6 rounded-lg shadow-lg">
+      
+                              <div class="col-span-2 md:col-span-1">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.LIST.TITLE' | translate}}
+                                          </span>
+                                          <select class="form-select" name="title">
+                                                <option> {{ 'contact.form.LIST.MR' | translate}} </option>
+                                                <option> {{ 'contact.form.LIST.MRS' | translate}} </option>
+                                                <option> {{ 'contact.form.LIST.MISS' | translate}} </option>
+                                                <option> {{ 'contact.form.LIST.ING' | translate}} </option>
+                                                <option> {{ 'contact.form.LIST.LIC' | translate}} </option>
+                                          </select>
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-2">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.NAME' | translate}}
+                                          </span>
+                                          <input type="text" name="name" class="" placeholder="John">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-2">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.LASTNAME' | translate}}
+                                          </span>
+                                          <input type="text" name="lastname" class="" placeholder="Ramírez">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-3">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.EMAIL' | translate}}
+                                          </span>
+                                          <input type="email" name="email" class="" placeholder="contacto@lagalm.com">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-2">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.PHONE' | translate}}
+                                          </span>
+                                          <input type="text" name="phone" class="" placeholder="55 5555 5555">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-3">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.COMPANY' | translate}}
+                                          </span>
+                                          <input type="text" name="company" class="" placeholder="Lagalm Industrial">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-2">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.OCCUPATION' | translate}}
+                                          </span>
+                                          <input type="text" name="occupation" class="" placeholder="">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-3">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.ADDRESS' | translate}}
+                                          </span>
+                                          <input type="text" name="adress" class=""
+                                                placeholder="Sta. Maria Cuautepec, Fuentes del Valle, Méx.">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5 md:col-span-2">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.ZIP' | translate}}
+                                          </span>
+                                          <input type="text" name="cp" class="" placeholder="54949">
+                                    </label>
+                              </div>
+      
+                              <div class="col-span-5">
+                                    <label class="block">
+                                          <span class="text-md font-semibold text-lagalm-400">
+                                                {{ 'contact.form.WRITEUS' | translate}}
+                                          </span>
+                                          <textarea class="" name="message" rows="3" placeholder="Mensaje"></textarea>
+                                    </label>
+                              </div>
+      
+                              <button
+                                    class="col-span-5 uppercase text-sm font-bold tracking-wide bg-lagalm-200 text-gray-100 p-3 rounded-lg w-full hover:bg-lagalm-400 transition duration-100 md:duration-500 ease-in-out">
+                                    {{ 'contact.form.BTN' | translate}}
+                              </button>
+      
+                        </div>
+                  </form>
+            </div>
+
+      </div>
+
+      <!-- contactUs -->
+      <div class="space-y-6 pt-10">
+
+            <div
+                  class="grid grid-flow-col justify-items-stretch grid-rows-3 md:grid-rows-1 md:grid-flow-row grid-cols-1 md:grid-cols-3 gap-y-10 text-gray-600">
+
+                  <!-- Contacto -->
+                  <div class="justify-self-center space-y-2">
+                        <p class="text-xl md:text-2xl font-semibold pb-2">Contacto</p>
+                        <div class="pl-6">
+                              <p class="">
+                                    <i class="far fa-envelope"></i>
+                                    contacto@lagalm.com
+                              </p>
+                              <p class="">
+                                    <i class="fas fa-phone"></i>
+                                    55 1111 2222
+                              </p>
+                        </div>
+                  </div>
+
+                  <!-- Info -->
+                  <div class="justify-self-center space-y-2">
+                        <p class="text-xl md:text-2xl font-semibold pb-2">Info</p>
+                        <div class="pl-6">
+                              <p class="">
+                                    <i class="far fa-envelope"></i>
+                                    info@lagalm.com
+                              </p>
+                              <p class="">
+                                    <i class="fas fa-phone"></i>
+                                    55 1111 2222
+                              </p>
+                        </div>
+                  </div>
+
+                  <!-- Ventas -->
+                  <div class="justify-self-center space-y-2">
+                        <p class="text-xl md:text-2xl font-semibold pb-2">Ventas</p>
+                        <div class="pl-6">
+                              <p class="">
+                                    <i class="far fa-envelope"></i>
+                                    ventas@lagalm.com
+                              </p>
+                              <p class="">
+                                    <i class="fas fa-phone"></i>
+                                    55 1111 2222
+                              </p>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+
 </div>

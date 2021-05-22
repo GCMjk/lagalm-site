@@ -52,12 +52,22 @@
             "CONTACTUS": "Contactanos",
             "WECONTACT": "Te contactamos",
             "ADVISER": "Un asesor te adenderá",
-            "T-EMAIL": "Lorem ipsum dolor sit.",
-            "D-EMAIL": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-            "BTN-EMAIL": "Enviar",
-            "T-PHONE": "Lorem ipsum dolor.",
-            "D-PHONE": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "BTN-PHONE": "Mensaje",
+            "CONTACTS": [
+                {
+                    "icon": "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
+                    "title": "Lorem ipsum dolor sit.ES",
+                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "method": "contacto@lagalm.mx",
+                    "btn": "Enviar"
+                },
+                {
+                    "icon": "https://assets6.lottiefiles.com/packages/lf20_5xaqtoj5.json",
+                    "title": "Lorem ipsum dolor sit.Es",
+                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "method": "55 1579 4661",
+                    "btn": "Mensaje"
+                }
+            ],
             "CONTACT": "Contacto",
             "INFO": "Info",
             "SALES": "Ventas",
@@ -175,21 +185,21 @@
             "OURTEAM": "¿Interesado en conocer más sobre nuestros servicios? Nuestros equipo se toman el tiempo para resolver sus dudas."
         },
         "form": {
-            "LIST": {
-                "TITLE": "Título",
-                "MR": "Sr.",
-                "MRS": "Sra.",
-                "MISS": "Srta.",
-                "ING": "Ing.",
-                "LIC": "Lic."
-            },
+            "LIST": [
+                { "title": "Sr." },
+                { "title": "Sra." },
+                { "title": "Srita." },
+                { "title": "Ing." },
+                { "title": "Lic." }
+            ],
+            "TITLE": "Titulo",
             "NAME": "Nombre",
             "LASTNAME": "Apellido",
             "EMAIL": "Correo",
             "PHONE": "Telefono",
             "COMPANY": "Empresa",
             "OCCUPATION": "Ocupación",
-            "ADDRESS": "Dirección",
+            "ADRESS": "Dirección",
             "ZIP": "C.P.",
             "WRITEUS": "Escríbenos",
             "BTN": "Contactar"

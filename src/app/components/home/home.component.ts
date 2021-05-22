@@ -55,23 +55,6 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  contacts = [
-    {
-      icon: "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
-      title: "Lorem ipsum dolor sit.",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      method: "contacto@lagalm.mx",
-      btn: "Enviar"
-    },
-    {
-      icon: "https://assets6.lottiefiles.com/packages/lf20_5xaqtoj5.json",
-      title: "Lorem ipsum dolor sit.",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-      method: "55 1579 4661",
-      btn: "Mensaje"
-    }
-  ];
-
   constructor() { }
 
   ngOnInit(): void {

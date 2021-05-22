@@ -1,0 +1,82 @@
+<form class="example-form grid grid-cols-5 gap-x-4 gap-y-4 p-6 rounded-lg shadow-lg">
+
+    <mat-form-field class="example-full-width col-span-1">
+        <mat-label>
+            {{ 'contact.form.TITLE' | translate}}
+        </mat-label>
+        <mat-select>
+            <mat-option *ngFor="let titles of 'contact.form.LIST' | translate"
+                [value]="'contact.form.TITLE' | translate">
+                {{ titles.title }}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-2">
+        <mat-label>
+            {{ 'contact.form.NAME' | translate}}
+        </mat-label>
+        <input matInput placeholder="Alejandro">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-2">
+        <mat-label>
+            {{ 'contact.form.LASTNAME' | translate}}
+        </mat-label>
+        <input matInput placeholder="Gutiérrez">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-3">
+        <mat-label>
+            {{ 'contact.form.EMAIL' | translate}}
+        </mat-label>
+        <input email matInput placeholder="ejemplo@lagalm.mx">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-2">
+        <mat-label>
+            {{ 'contact.form.PHONE' | translate}}
+        </mat-label>
+        <input matInput placeholder="55 1579 4661">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-3">
+        <mat-label>
+            {{ 'contact.form.COMPANY' | translate}}
+        </mat-label>
+        <input matInput placeholder="Lagalm Industrial">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-2">
+        <mat-label>
+            {{ 'contact.form.OCCUPATION' | translate}}
+        </mat-label>
+        <input matInput>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-3">
+        <mat-label>
+            {{ 'contact.form.ADRESS' | translate}}
+        </mat-label>
+        <input matInput placeholder="23, Sta Maria Cuautepec Méx.">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-2">
+        <mat-label>
+            {{ 'contact.form.ZIP' | translate}}
+        </mat-label>
+        <input matInput placeholder="54949">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width col-span-5">
+        <mat-label>
+            {{ 'contact.form.WRITEUS' | translate}}
+        </mat-label>
+        <textarea matInput></textarea>
+    </mat-form-field>
+
+    <button class="col-span-5 uppercase text-sm font-bold tracking-wide bg-lagalm-200 text-gray-100 p-3 rounded-lg w-full hover:bg-lagalm-400 transition duration-100 md:duration-500 ease-in-out">
+        {{ 'contact.form.BTN' | translate}}
+    </button>
+
+</form>

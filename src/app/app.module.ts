@@ -4,6 +4,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
+import { MaterialModule } from './material.module';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -14,6 +16,9 @@ import { LagservicesComponent } from './components/lagservices/lagservices.compo
 import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ContactMethodsComponent } from './components/contact-methods/contact-methods.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SwiperModule } from 'swiper/angular';
@@ -34,12 +39,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     LagservicesComponent,
     ContactComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    ContactFormComponent,
+    ContactMethodsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    MaterialModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
     TranslateModule.forRoot({

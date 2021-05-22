@@ -566,15 +566,14 @@
 
     </div>
 
-    <!-- contact -->
     <div class="contact-section">
 
         <div class="adviser">
-
+    
             <h3>
                 {{ 'home.contact.ADVISER' | translate}}
             </h3>
-
+    
             <div class="link">
                 <a routerLink="/contact">
                     {{ 'home.contact.WECONTACT' | translate}}
@@ -583,37 +582,8 @@
             </div>
             
         </div>
-
-        <div class="direct-contact">
-            <div class="each" *ngFor="let contact of contacts">
-
-                <div class="icon-animation">
-
-                    <div class="circle">
-                        <lottie-player [src]="contact.icon"  background="transparent"  speed="1" loop  autoplay></lottie-player>
-                    </div>
-
-                </div>
-
-                <div class="contact-bottom">
-
-                    <p class="contact-title">
-                        {{ contact.title }}
-                    </p>
-                    <p class="contact-text">
-                        {{ contact.text }}
-                    </p>
-                    <p class="contact-method">
-                        {{ contact.method }}
-                    </p>
-                    <a href="" class="contact-btn">
-                        {{ contact.btn }}
-                    </a>
-
-                </div>
-
-            </div>
-        </div>
+        
+        <app-contact-methods></app-contact-methods>
         
     </div>
 

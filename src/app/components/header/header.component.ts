@@ -1,7 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-
-import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-header',
@@ -11,7 +9,7 @@ import { environment } from '../../../environments/environment';
 export class HeaderComponent {
 
   logo = {
-    route: environment.lagalmLogo,
+    route: "../../assets/lagalm-logo.svg",
     name: 'Logo Lagalm Industrial'
   };
 

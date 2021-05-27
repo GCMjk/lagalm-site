@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from '../../../environments/environment';
 
 import { faFacebookF, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,6 +12,11 @@ export class FooterComponent implements OnInit {
   faFacebookF = faFacebookF;
   faLinkedinIn = faLinkedinIn;
   faWhatsapp = faWhatsapp;
+
+  logo = {
+    route: "../../assets/lagalm-logo.svg",
+    name: "Logo Lagalm Industrial"
+  };
 
   facebook = {
     link: "https://www.facebook.com/Lagalm",
@@ -28,11 +32,6 @@ export class FooterComponent implements OnInit {
     link: "",
     icon: faWhatsapp
   }
-
-  logo = {
-    route: environment.lagalmLogo,
-    name: 'Logo Lagalm Industrial'
-  };
 
   bureau = {
     route: '../../../assets/logos/iso/bureau-veritas.png',

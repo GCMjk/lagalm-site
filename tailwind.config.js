@@ -55,7 +55,11 @@ module.exports = {
               400: '#084d66',
             }
             
-          }
+        },
+        fontFamily: {
+            fontMonts: ['Montserrat'],
+            fontLato: ['Lato']
+        }
       },
     },
     variants: {

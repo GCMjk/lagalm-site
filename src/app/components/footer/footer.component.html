@@ -71,14 +71,14 @@
                     </a>
                 </li>
                 <li>
-                    <a routerLink="#">
+                    <p class="item-contact">
                         contacto@lagalm.mx
-                    </a>
+                    </p>
                 </li>
                 <li>
-                    <a routerLink="#">
+                    <p class="item-contact">
                         55 1579 4661
-                    </a>
+                    </p>
                 </li>
             </ul>
         </div>
@@ -95,17 +95,17 @@
                 <h4> {{ 'footer.FOLLOWUS' | translate }} </h4>
 
                 <div class="social">
-                    <a href="https://www.facebook.com/Lagalm" target="_blank"
+                    <a [href]="facebook.link" target="_blank"
                         class="icon-fa">
-                        <fa-icon [icon]="faFacebookF" size="lg"></fa-icon>
+                        <fa-icon [icon]="facebook.icon" size="lg"></fa-icon>
                     </a>
-                    <a href="https://mx.linkedin.com/" target="_blank"
+                    <a [href]="" target="_blank"
                         class="icon-li">
-                        <fa-icon [icon]="faLinkedinIn" size="lg"></fa-icon>
+                        <fa-icon [icon]="linkedin.icon" size="lg"></fa-icon>
                     </a>
-                    <a href="https://www.whatsapp.com" target="_blank"
+                    <a [href]="" target="_blank"
                         class="icon-wa">
-                        <fa-icon [icon]="faWhatsapp" size="lg"></fa-icon>
+                        <fa-icon [icon]="whatsapp.icon" size="lg"></fa-icon>
                     </a>
                 </div>
             </div>

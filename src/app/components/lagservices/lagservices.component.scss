@@ -5,7 +5,7 @@ div.service-img {
     div.service {
         @apply container mx-auto text-center space-y-4;
         h2 {
-            @apply text-4xl md:text-6xl lg:text-8xl text-gray-900 font-bold;
+            @apply text-4xl md:text-6xl lg:text-8xl text-lagalm-400 font-bold font-fontMonts tracking-wider;
         }
         p {
             @apply text-base md:text-lg font-light;
@@ -21,14 +21,14 @@ div.services-section {
         @apply h-96 w-auto bg-cover bg-center shadow-md rounded-t-lg transition duration-500 ease-in-out transform hover:scale-105;
         
         div.card {
-            @apply h-full bg-gradient-to-t from-black to-transparent p-6;
+            @apply h-full bg-gradient-to-t from-black to-gray-600 p-6;
             
             div.top-card{
                 @apply flex h-4/6 w-full;
                 h3 {
-                    @apply text-gray-200 text-lg lg:text-xl font-bold uppercase self-end;
+                    @apply text-gray-300 text-xl lg:text-3xl font-bold uppercase self-end;
                     span {
-                        @apply ml-2 text-sm lg:text-base font-light;
+                        @apply text-gray-200 text-base lg:text-lg font-light ml-2;
                     }
                 }
             }
@@ -42,7 +42,7 @@ div.services-section {
                     div.text {
                         @apply overflow-y-hidden h-20;
                         p {
-                            @apply text-gray-100 text-base font-light ml-4 text-justify leading-snug;
+                            @apply text-gray-100 text-base lg:text-xl font-light ml-4 text-justify leading-snug;
                         }
                     }
 
@@ -74,7 +74,7 @@ div.contact-section {
             @apply text-center;
             
             h4 {
-                @apply text-3xl md:text-4xl lg:text-5xl font-semibold text-lagalm-200 uppercase;
+                @apply text-3xl md:text-4xl lg:text-5xl font-semibold text-lagalm-200 font-fontLato tracking-wider uppercase;
             }
             p {
                 @apply text-lg md:text-xl lg:text-2xl font-normal text-white mt-2 lg:mt-6;
@@ -86,7 +86,7 @@ div.contact-section {
             @apply flex justify-center items-center;
             
             a {
-                @apply text-xl md:text-2xl lg:text-3xl font-semibold text-btnLgm hover:text-white bg-transparent hover:bg-btnLgm border border-btnLgm hover:border-transparent rounded-3xl shadow transition duration-200 lg:duration-500 ease-in-out cursor-pointer px-6 py-2;
+                @apply text-xl md:text-2xl lg:text-3xl font-semibold text-white hover:text-btnLgm bg-btnLgm hover:bg-transparent border border-transparent hover:border-btnLgm rounded-3xl shadow transition duration-200 lg:duration-500 ease-in-out cursor-pointer px-6 py-2;
             }
 
         }

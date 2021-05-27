@@ -13,7 +13,7 @@
         "WHY": "¿Porque Lagalm?",
         "SOLUTIONS": "Soluciones",
         "STORY": "Historia",
-        "POLICIES": "Politicas",
+        "POLICIES": "Políticas",
         "SERVICES": "Servicios",
         "KNOW": "Conócelos",
         "CONTACT": "Contacto",
@@ -43,8 +43,7 @@
         },
         "services": {
             "SERVICE": "Servicios",
-            "LAGSERVICES": "Como valor agregado que ofrece LAGALM Industrial,",
-            "SERVICES": "dentro de la maquila de productos plásticos, se cuenta con el taller de máquinas y herramientas con tecnología de control numérico para proporcionar mantenimiento correctivo o preventivo a los herramentales de producción.",
+            "SERVICES": "Como valor agregado que ofrece LAGALM Industrial, dentro de la maquila de productos plásticos, se cuenta con el taller de máquinas y herramientas con tecnología de control numérico para proporcionar mantenimiento correctivo o preventivo a los herramentales de producción.",
             "KNOW": "Conócelos"
         },
         "CUSTOMERS": "Clientes",
@@ -55,15 +54,15 @@
             "CONTACTS": [
                 {
                     "icon": "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
-                    "title": "Lorem ipsum dolor sit.ES",
-                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "title": "Correo",
+                    "text": "Puede enviarnos un correo electrónico a:",
                     "method": "contacto@lagalm.mx",
                     "btn": "Enviar"
                 },
                 {
                     "icon": "https://assets6.lottiefiles.com/packages/lf20_5xaqtoj5.json",
-                    "title": "Lorem ipsum dolor sit.Es",
-                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "title": "Teléfono",
+                    "text": "En la siguiente línea:",
                     "method": "55 1579 4661",
                     "btn": "Mensaje"
                 }
@@ -141,34 +140,34 @@
         "SERVICES-TEXT": "",
         "SERVICE-CARD": [
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Moldeo de productos plásticos",
                 "sub": "por inyección de plástico",
                 "text": "Moldeo de resinas termoplásticas​ por inyección.",
-                "link": "lagalm.mx"
+                "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Diseño, desarrollo, reparación, manufactura y mantenimiento",
                 "sub": "de herramentales para inyección de plástico, die cast y troqueles progresivos",
                 "text": "Este es un servicio especial para nuestros clientes que desean la manufactura de sus productos.",
                 "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Servicios adicionales complementarios",
                 "text": "Mecanizado de partes metálicas en Centro de Maquinado CNC",
-                "link": "lagalm.mx"
+                "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Servicio de digitalización",
                 "sub": "tridimensional e ingeniería inversa",
                 "text": "Este servicio les permite a nuestros clientes analizar sus productos para lograr procesos más eficientes y precisos, pues podemos proponer mejoras a través de la generación de esquemas, dibujos, planos, modelados y prototipos.",
                 "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Logística",
                 "text": "Contamos con la capacidad de entregar la producción de nuestros clientes hasta su planta si así lo requiere.",
                 "link": ""

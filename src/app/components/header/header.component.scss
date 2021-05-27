@@ -1,15 +1,15 @@
 .nav-item {
-    @apply p-2 lg:px-4 md:mx-2 text-gray-900 border-b-2 border-transparent hover:border-blue-400 duration-500
+    @apply font-fontMonts tracking-widest p-2 lg:px-4 md:mx-2 text-gray-700 border-b-2 border-transparent hover:border-lagalm-300 duration-500
 }
 
 .nav-item-active {
-    @apply font-bold
+    @apply font-bold text-gray-800
 }
 
 .nav-translator {
-    @apply text-blue-200 rounded hover:bg-blue-200 p-1 hover:text-white focus:outline-none transition-colors duration-300
+    @apply text-lagalm-200 rounded hover:bg-lagalm-200 p-1 hover:text-white focus:outline-none transition-colors duration-300
 }
 
 .nav-translator-active {
-    @apply font-bold text-blue-300
+    @apply font-bold text-lagalm-400
 }

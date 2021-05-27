@@ -43,8 +43,7 @@
         },
         "services": {
             "SERVICE": "Services",
-            "LAGSERVICES": "As an added value offered by LAGALM Industrial,",
-            "SERVICES": "within the maquila of plastic products, there is a machine shop and tools with numerical control technology to provide corrective or preventive maintenance to the production tooling.",
+            "SERVICES": "As an added value offered by LAGALM Industrial, within the maquila of plastic products, there is a machine shop and tools with numerical control technology to provide corrective or preventive maintenance to the production tooling.",
             "KNOW": "Learn more"
         },
         "CUSTOMERS": "Customers",
@@ -55,15 +54,15 @@
             "CONTACTS": [
                 {
                     "icon": "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
-                    "title": "Lorem ipsum dolor sit.En",
-                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "title": "Email",
+                    "text": "You can send us an email to:",
                     "method": "contacto@lagalm.mx",
                     "btn": "Send"
                 },
                 {
                     "icon": "https://assets6.lottiefiles.com/packages/lf20_5xaqtoj5.json",
-                    "title": "Lorem ipsum dolor sit.En",
-                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+                    "title": "Phone",
+                    "text": "In the following line:",
                     "method": "55 1579 4661",
                     "btn": "Message"
                 }
@@ -141,34 +140,34 @@
         "SERVICES-TEXT": "",
         "SERVICE-CARD": [
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Plastic product molding",
                 "sub": "by plastic injection",
                 "text": "Injection molding of thermoplastic resins.",
-                "link": "lagalm.mx"
+                "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Design, development, repair, manufacturing and maintenance",
                 "sub": "of tools for plastic injection, diecast and progressive dies",
                 "text": "This is a special service for our clients who want the manufacture of their products.",
                 "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Complementary additional services",
                 "text": "Machining of metal parts in CNC Machining Center",
-                "link": "lagalm.mx"
+                "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Digitization service",
                 "sub": "three-dimensional and reverse engineering",
                 "text": "This service allows our clients to analyze their products to achieve more efficient and precise processes, as we can propose improvements through the generation of diagrams, drawings, plans, models and prototypes.",
                 "link": ""
             },
             {
-                "img": "background-image:url('https://placeimg.com/480/480/any')",
+                "img": "background-image:url('')",
                 "title": "Logistics",
                 "text": "We have the ability to deliver our clients' production to their plant if required.",
                 "link": ""

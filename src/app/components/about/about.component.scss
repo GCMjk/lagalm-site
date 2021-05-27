@@ -8,13 +8,13 @@ div.why-section {
             @apply text-center max-w-screen-xl mt-6 md:mt-12 px-4 sm:px-6 mx-auto;
 
             h2 {
-                @apply text-4xl tracking-tight leading-10 font-bold text-gray-900 sm:text-5xl sm:leading-none md:text-5xl;
+                @apply text-4xl lg:text-6xl font-fontMonts tracking-tight leading-10 font-bold text-gray-900 sm:text-5xl sm:leading-none md:text-5xl;
                 span {
                     @apply text-lagalm-300;
                 }
             }
             p {
-                @apply mt-3 max-w-md mx-auto text-lg md:text-2xl text-gray-500 md:mt-5 md:max-w-3xl;
+                @apply mt-3 max-w-md mx-auto text-lg md:text-2xl text-gray-500 tracking-wider md:mt-5 md:max-w-3xl;
             }
         }
     }
@@ -46,11 +46,11 @@ div.why-section {
             @apply max-w-screen-lg mx-auto pt-16 pb-16 px-4 sm:px-6 md:pb-20 lg:px-8;
 
             h3 {
-                @apply text-left text-gray-200 text-4xl md:text-6xl font-semibold uppercase tracking-wide;
+                @apply text-left text-gray-200 text-4xl md:text-6xl font-semibold font-fontLato uppercase tracking-wider;
             }
 
             h2 {
-                @apply text-3xl font-extrabold tracking-tight text-gray-400;
+                @apply text-3xl font-extrabold font-fontLato tracking-wider text-gray-400;
             }
 
             p {
@@ -77,7 +77,7 @@ div.about-section {
         div.youth-text {
             @apply text-right -mt-2 md:-mt-4 lg:-mt-6 mx-2;
             h3 {
-                @apply text-2xl lg:text-4xl xl:text-6xl font-bold uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-blue-200 via-indigo-600 to-blue-200 animate-gradient-x;
+                @apply text-2xl lg:text-4xl xl:text-6xl font-bold font-fontMonts uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-blue-200 via-indigo-600 to-blue-200 animate-gradient-x;
             }
             p {
                 @apply text-xl lg:text-2xl font-light text-gray-800 leading-relaxed mt-6 px-14;
@@ -99,10 +99,10 @@ div.about-section {
             }
 
             div.content {
-                @apply w-full py-4 px-6 text-gray-800 flex flex-col justify-between;
+                @apply w-full py-6 px-6 text-gray-800 flex flex-col justify-between;
 
                 h3 {
-                    @apply font-semibold text-lg leading-tight truncate;
+                    @apply font-semibold text-lg lg:text-4xl leading-tight truncate;
                 }
                 p {
                     @apply mt-2;
@@ -117,7 +117,7 @@ div.about-section {
         div.politic {
             @apply col-span-1 self-end;
             p {
-                @apply text-blue-900 text-2xl lg:text-4xl font-bold uppercase tracking-wide;
+                @apply text-blue-900 text-4xl lg:text-6xl font-bold font-fontMonts uppercase tracking-wider;
             }
         }
 
@@ -131,7 +131,7 @@ div.about-section {
         div.content {
             @apply col-span-1 mx-8;
             p {
-                @apply text-xl font-light text-gray-800 leading-relaxed;
+                @apply text-xl lg:text-2xl font-light text-gray-800 leading-relaxed;
             }
         }
     }

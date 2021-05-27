@@ -19,14 +19,14 @@ div.direct-contact {
     }
 
     div.contact-bottom {
-      @apply flex justify-center flex-col text-center space-y-4;
+      @apply flex justify-center flex-col text-center;
 
       p.contact-title {
-        @apply text-lg font-bold -mt-4;
+        @apply text-lg lg:text-3xl font-bold;
       }
 
       p.contact-text {
-        @apply text-base font-thin;
+        @apply text-base lg:text-2xl font-thin;
       }
 
       p.contact-method {

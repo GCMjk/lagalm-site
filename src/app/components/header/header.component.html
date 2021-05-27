@@ -1,5 +1,5 @@
-<header class=" py-2 md:py-4 shadow-sm">
-    <div class="container px-4 mx-auto md:flex md:items-center">
+<header class="bg-white bg-opacity-85 px-4 py-4 md:py-6 shadow-sm">
+    <div class="container mx-auto md:flex md:items-center">
 
         <div class="flex justify-between items-center">
             <a routerLink="home"> 
@@ -21,7 +21,7 @@
             </button>
         </div>
 
-        <nav class="md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse" [ngClass]="toggle ? 'flex' : 'hidden'">
+        <nav class="md:flex flex-col md:flex-row md:ml-auto mt-6 md:mt-0 space-y-6 md:space-y-0" id="navbar-collapse" [ngClass]="toggle ? 'flex' : 'hidden'">
 
             <a routerLink="home" routerLinkActive="nav-item-active"
                 class="nav-item"> {{ 'nav.HOME' | translate }} </a>
@@ -34,13 +34,12 @@
 
             <div class="inline-flex justify-center items-center space-x-2 pl-0 md:pl-10 mt-10 md:mt-0">
 
-                <!-- [ngClass]="{'nav-translator-active': useLanguage('es')}" *ngIf="useLanguage('es') === lang = 'es" -->
                 <button (click)="useLanguage('es')" [ngClass]="{'nav-translator-active': lang == true}"
                     class="nav-translator">
                     ES
                 </button>
 
-                <hr class="h-full border-r-2 border-red-200">
+                <hr class="h-full border-r-2 border-btnLgm border-opacity-60">
 
                 <button (click)="useLanguage('en')" [ngClass]="{'nav-translator-active': lang == false}"
                     class="nav-translator">

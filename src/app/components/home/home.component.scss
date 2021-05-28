@@ -1,34 +1,49 @@
 div.landing {
   @apply h-screen bg-cover bg-center;
-  background-image: url('https://lagalm.mx/img/lag.jpg');
+  background-image: url('../../../assets/images/landing.jpg');
 
   div.transparent {
-    @apply flex items-center text-white h-full w-full bg-gradient-to-t from-white via-white to-transparent;
+    @apply flex items-center h-full w-screen bg-gradient-to-t from-white via-white to-transparent;
 
-    div.animation {
-      @apply flex justify-center;
-    }
+    div.content-animation {
+      @apply w-screen h-auto;
 
-    div.txt-slide {
-      @apply -mt-16 md:-mt-20;
-      h1 {
-        @apply w-96 text-gray-800 text-6xl md:text-8xl lg:text-9xl font-bold mx-auto text-center;
+      div.animation {
+        @apply flex justify-center;
       }
-    }
 
-    div.solutions {
-      @apply text-center mt-4;
-      p {
-        @apply text-xl text-gray-400 font-thin;
+      div.text-animation {
+
+        @apply container mx-auto -mt-16 md:-mt-20 lg:-mt-28;
+
+        h1.dml-animation {
+
+          @apply relative h-28;
+  
+          span.letters {
+
+            @apply absolute text-gray-800 text-6xl md:text-8xl lg:text-9xl font-bold;
+
+          }
+  
+        }
       }
+
+      div.solutions {
+        @apply text-center;
+        p {
+          @apply text-xl text-gray-400 font-thin;
+        }
+      }
+
     }
     
   }
 
 }
 
-div.section {
-  @apply h-auto w-full py-10 bg-blue-900 -mt-32 text-white;
+/* div.section {
+  @apply h-auto w-full py-10 bg-blue-900 -mt-12 md:-mt-32 text-white;
 
   div.contain {
     @apply container mx-auto py-10 text-center;
@@ -58,7 +73,7 @@ div.section {
     }
 
   }
-}
+} */
 
 div.lagalm-section {
   @apply grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 lg:gap-y-32 container mx-auto my-32;

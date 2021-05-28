@@ -17,7 +17,7 @@
         "SERVICES": "Servicios",
         "KNOW": "Conócelos",
         "CONTACT": "Contacto",
-        "WECONTACT": "Te contactamos...",
+        "WECONTACT": "¿Necesitas una cotización?",
         "FOLLOWUS": "Siguenos",
         "ADRESS": "Dirección",
         "RIGHTS": "Todos los derechos reservados."
@@ -43,13 +43,13 @@
         },
         "services": {
             "SERVICE": "Servicios",
-            "SERVICES": "Como valor agregado que ofrece LAGALM Industrial, dentro de la maquila de productos plásticos, se cuenta con el taller de máquinas y herramientas con tecnología de control numérico para proporcionar mantenimiento correctivo o preventivo a los herramentales de producción.",
+            "SERVICES": "Contamos con un taller de máquinas y herramientas con tecnología de control numérico para proporcionar mantenimiento correctivo o preventivo a los herramentales de producción.",
             "KNOW": "Conócelos"
         },
         "CUSTOMERS": "Clientes",
         "contact": {
             "CONTACTUS": "Contactanos",
-            "WECONTACT": "Te contactamos",
+            "WECONTACT": "¿Necesitas una cotización?",
             "ADVISER": "Un asesor te adenderá",
             "CONTACTS": [
                 {
@@ -89,17 +89,17 @@
         },
         "mve": [
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/m.jpg",
                 "TEXT": "Misión",
                 "CONTENTS": "El objetivo de LAGALM es crear productos de alto valor para nuestros clientes, a través de la integración de procesos de diseño, manufactura, comercialización y distribución de productos plásticos y productos metálicos. Desarrollamos procesos y procedimientos robustos que nos permiten ofrecer soluciones específicas a cada uno de nuestros clientes."
             },
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/v.jpg",
                 "TEXT": "Visión",
                 "CONTENTS": "LAGALM es: creativo, eficiente y disciplinado, con el objetivo de satisfacer y superar las expectativas de nuestros clientes, asegurando para ellos altos estándares de calidad en productos y servicios, posicionando a la empresa como una de las mejores en el desarrollo, producción, venta y distribución de productos plásticos y metálicos para la industria en general, permitiendo ampliar nuestro mercado nacional e internacional, en busca de nuevos retos."
             },
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/e.jpg",
                 "TEXT": "Ética",
                 "CONTENTS": "En LAGALM estamos comprometidos con obtener la mayor satisfacción de nuestros clientes, proporcionando el mejor producto y eficiencia en el servicio, observando y mejorando día a día nuestros procesos cumpliendo cabalmente nuestros compromisos con los más altos estándares de calidad, siendo respaldados por nuestra amplia experiencia en el mercado."
             }

@@ -17,7 +17,7 @@
         "SERVICES": "Services",
         "KNOW": "Know them",
         "CONTACT": "Contact",
-        "WECONTACT": "We contact you...",
+        "WECONTACT": "Do you need a quote?",
         "FOLLOWUS": "Follow us",
         "ADRESS": "Adress",
         "RIGHTS": "All rights reserved."
@@ -43,13 +43,13 @@
         },
         "services": {
             "SERVICE": "Services",
-            "SERVICES": "As an added value offered by LAGALM Industrial, within the maquila of plastic products, there is a machine shop and tools with numerical control technology to provide corrective or preventive maintenance to the production tooling.",
+            "SERVICES": "We have a machine and tool shop with numerical control technology to provide corrective or preventive maintenance to production tools.",
             "KNOW": "Learn more"
         },
         "CUSTOMERS": "Customers",
         "contact": {
             "CONTACTUS": "Contact us",
-            "WECONTACT": "Contact you",
+            "WECONTACT": "Do you need a quote?",
             "ADVISER": "An advisor will assist you",
             "CONTACTS": [
                 {
@@ -89,17 +89,17 @@
         },
         "mve": [
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/m.jpg",
                 "TEXT": "Mision",
                 "CONTENTS": "LAGALM´S goal is to create high value products for our clients through an integration of design, manufacture, merchandising and distribution processes of plastic and metal products. We develop robust processes and procedures that allow us to offer specific solutions to each one of our clients."
             },
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/v.jpg",
                 "TEXT": "Vision",
                 "CONTENTS": "LAGALM is: creative, efficient and disciplined, it has the objective of satisting and succeed our clients expectations, assuring for them high quality standards in products and services, positioning the company as one of the best at developing, manufacture, sales and distribution of plástic and metal products for the industry in general, allowing to enlarge our national and international market in the pursuit of new challenges."
             },
             {
-                "IMG": "https://source.unsplash.com/l3Jdvs1Qui4/800x600",
+                "IMG": "../../../assets/images/e.jpg",
                 "TEXT": "Ethics code",
                 "CONTENTS": "At LAGALM we are committed to get the biggest satisfaction of our clients, providing the best product and efficiency in our services, observing and improving day after day our processes, accomplishing our compromises with the highest quality standards, being supported by our extensive experience in the market."
             }

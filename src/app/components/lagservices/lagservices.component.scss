@@ -1,11 +1,11 @@
 div.service-img {
     @apply w-screen h-2/3 flex items-center bg-center bg-cover;
-    background-image: url('https://lagalm.mx/img/lag.jpg');
+    background-image: url('../../../assets/images/servicios.jpg');
 
     div.service {
         @apply container mx-auto text-center space-y-4;
         h2 {
-            @apply text-4xl md:text-6xl lg:text-8xl text-lagalm-400 font-bold font-fontMonts tracking-wider;
+            @apply text-6xl md:text-8xl lg:text-9xl text-white font-bold font-fontMonts tracking-wider;
         }
         p {
             @apply text-base md:text-lg font-light;
@@ -65,7 +65,7 @@ div.services-section {
 
 div.contact-section {
     @apply bg-cover bg-center h-auto py-20 px-0 lg:px-10;
-    background-image: url('https://placeimg.com/480/480/any');
+    background-image: url('../../../assets/images/contact.jpg');
 
     div.contact-bg {
         @apply h-auto w-full flex flex-col justify-center space-y-10 bg-black bg-opacity-40 rounded-none lg:rounded-lg py-20 px-10;

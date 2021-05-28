@@ -2,19 +2,30 @@
 <div class="landing">
     <div class="transparent">
 
-        <div class="w-screen">
+        <div class="content-animation">
 
             <div class="animation">
                 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_hbl5xthi.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay></lottie-player>
             </div>
-            
-            <div class="txt-slide">
-                <h1 class="one">
-                    {{ 'home.landing.DESIGN' | translate }}<span class="text-btnLgm">.</span> 
+
+            <div class="text-animation">
+                <h1 class="dml-animation">
+                    <div class="flex justify-center">
+                        <span class="letters design">
+                            {{ 'home.landing.DESIGN' | translate }}<span class="text-btnLgm">.</span> 
+                        </span>
+                        <span class="letters manufacture">
+                            {{ 'home.landing.MANUFACTURE' | translate }}<span class="text-btnLgm">.</span> 
+                        </span>
+                        <span class="letters logistics">
+                            {{ 'home.landing.LOGISTICS' | translate }}<span class="text-btnLgm">.</span> 
+                        </span>
+                    </div>
+                    
                 </h1>
             </div>
 
-            <div class="solutions">
+            <div class="solutions mt-10">
                 <p> {{ 'home.landing.PLASINJ' | translate}} </p>
             </div>
 
@@ -24,7 +35,7 @@
 </div>
 
 <!-- section -->
-<div class="section">
+<!-- <div class="section">
 
     <div class="contain">
 
@@ -50,9 +61,9 @@
 
     </div>
 
-</div>
+</div> -->
 
-<div class="mx-8 lg:mx-10">
+<div class="mx-8 lg:mx-10 -mt-60 md:-mt-80">
 
     <!-- lagalm -->
     <div class="lagalm-section">
@@ -67,10 +78,10 @@
         </div>
 
         <div class="lagalm-img">
-            <img src="https://lagalm.mx/img/lag.jpg" alt="">    
-            <span>
+            <img src="../../../assets/images/lag.jpg" alt="">    
+            <!-- <span>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit incidunt.
-            </span>
+            </span> -->
         </div>
 
         <div class="solutions">
@@ -83,10 +94,10 @@
         </div>
 
         <div class="solutions-img">
-            <img src="https://www.lagalm.mx/img/soluciones.jpg" alt="">    
-            <span>
+            <img src="../../../assets/images/soluciones.jpg" alt="">    
+            <!-- <span>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit incidunt.
-            </span>
+            </span> -->
         </div>
 
     </div>
@@ -106,7 +117,7 @@
                     {{ 'home.services.SERVICES' | translate}}
                 </p>
 
-                <div class="icons">
+                <!-- <div class="icons">
 
                     <div class="each" *ngFor="let item of items">
 
@@ -127,7 +138,7 @@
 
                     </div>
             
-                </div>
+                </div> -->
         
             </div>
 

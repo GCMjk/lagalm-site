@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -15,6 +15,8 @@ export class HeaderComponent {
 
   toggle = false;
   lang = true;
+
+  header_variable = false;
 
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('es');
@@ -41,6 +43,18 @@ export class HeaderComponent {
 
       this.lang = false;
 
+    }
+
+  }
+
+  @HostListener("document:scroll")
+
+  scrollFunction(){
+
+    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
+      this.header_variable = true;
+    } else {
+      this.header_variable = false;
     }
 
   }

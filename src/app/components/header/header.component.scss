@@ -1,3 +1,13 @@
+header {
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.header_change {
+    @apply py-4 md:py-6;
+    background-color: white;
+}
+
 .nav-item {
     @apply font-fontMonts tracking-widest p-2 lg:px-4 md:mx-2 text-gray-700 border-b-2 border-transparent hover:border-lagalm-300 duration-500
 }

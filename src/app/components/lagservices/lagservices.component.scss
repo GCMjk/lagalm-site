@@ -1,4 +1,5 @@
 div.service-img {
+    background-attachment: fixed;
     @apply w-screen h-2/3 flex items-center bg-center bg-cover;
     background-image: url('../../../assets/images/servicios.jpg');
 

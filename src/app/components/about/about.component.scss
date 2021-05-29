@@ -75,12 +75,12 @@ div.about-section {
         }
 
         div.youth-text {
-            @apply text-center lg:text-right mt-10 md:-mt-4 lg:-mt-6 mx-2;
+            @apply text-center lg:text-right mt-6 mx-2;
             h3 {
-                @apply text-5xl lg:text-6xl xl:text-7xl font-bold font-fontMonts uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-blue-200 via-indigo-600 to-blue-200 animate-gradient-x;
+                @apply text-2xl lg:text-4xl xl:text-7xl font-bold font-fontMonts uppercase tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-blue-200 via-indigo-600 to-blue-200 animate-gradient-x;
             }
             p {
-                @apply text-xl lg:text-2xl font-light text-gray-800 leading-relaxed mt-6 px-14;
+                @apply text-base lg:text-2xl font-light text-gray-800 lg:leading-relaxed mt-6 px-14 w-full lg:w-1/2;
             }
         }
     }

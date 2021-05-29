@@ -37,7 +37,7 @@
             "PROJECTS": "Projects"
         },
         "us": {
-            "LAG": "Lagalm Industrial is a company with a wide experience at the process of design and manufacture of plastic parts at plastic injection. We have a group of young and creative collaborators, committed with the total satisfaction of their clients and commercial partners. We offer integral solutions that make us flexible in a changing and more challenging and demanding market of high quality products.",
+            "LAG": "Lagalm Industrial is a company with an extensive amount of experience in the process of design and manufacture of plastic parts at plastic injection. We have a group of young and creative collaborators, committed to satisfy  their clients and commercial partners. We offer integral solutions that make us flexible in a changing and more challenging and demanding market of high quality products.",
             "SOLUTION": "Solutions",
             "SOLUTIONS": "We have different available services for each stage of your project, from the design, measuring, manufacture to logistics, delivering your merchandise at your own company throughout a constant communication with our clients."
         },
@@ -77,11 +77,11 @@
         "why": {
             "CHOOSE": "Why would I choose",
             "INDUSTRIAL": "Lagalm Industrial?",
-            "WHY": "We are a 100% Mexican company, with 16 years of active experience at the plastic injection and the mold making industry, through the years we have developed and implemented processes that allowed us to be an efficient and committed working team, that offers integral solutions to our clients, starting from the concept of your ideas till a final functional product and with quality standards above many of our competitors."
+            "WHY": "We are a 100% Mexican company, with 16 years of active experience at the plastic injection and the mold making industry. Through the years we have developed and implemented different types of  processes that allowed us to be an efficient, committed, working team that offers integral solutions to our clients. Starting from a concept of your idea to a final functional product with quality standards above many of our competitors."
         },
         "history": {
             "HISTORY": "HISTORY",
-            "BORN": "Was born in the year 2005 in Estado de México due to a development and expansion plan. Nevertheless, our founding partner had already more than a decade of experience when founding our company, this is why our experience in the market is even more extensive."
+            "BORN": "LAGALM INDUSTRIAL S.A. DE C.V. was established in 2005 in Estado de México due to a development and expansion plan. Nevertheless, our founding partner already had more than a decade of experience when founding our company. This is why our experience in the market is even more extensive."
         },
         "young": {
             "YOUNG": "Committed youth",
@@ -91,17 +91,17 @@
             {
                 "IMG": "../../../assets/images/m.jpg",
                 "TEXT": "Mision",
-                "CONTENTS": "LAGALM´S goal is to create high value products for our clients through an integration of design, manufacture, merchandising and distribution processes of plastic and metal products. We develop robust processes and procedures that allow us to offer specific solutions to each one of our clients."
+                "CONTENTS": "LAGALM´S goal is to create high quality products for our clients through an integration of design, manufacture, merchandising and distribution processes of plastic and metal products. We develop robust processes and procedures that allow us to offer specific solutions to each one of our clients."
             },
             {
                 "IMG": "../../../assets/images/v.jpg",
                 "TEXT": "Vision",
-                "CONTENTS": "LAGALM is: creative, efficient and disciplined, it has the objective of satisting and succeed our clients expectations, assuring for them high quality standards in products and services, positioning the company as one of the best at developing, manufacture, sales and distribution of plástic and metal products for the industry in general, allowing to enlarge our national and international market in the pursuit of new challenges."
+                "CONTENTS": "LAGALM is: creative, efficient, and disciplined. It's objective is satisting and succeeding our clients expectations, assuring them high quality standards in our products and services, positioning the company as one of the best at developing, manufacture, sales and distribution of plastic and metal products for the industry in general, allowing to enlarge our national and international market in the pursuit of new challenges."
             },
             {
                 "IMG": "../../../assets/images/e.jpg",
                 "TEXT": "Ethics code",
-                "CONTENTS": "At LAGALM we are committed to get the biggest satisfaction of our clients, providing the best product and efficiency in our services, observing and improving day after day our processes, accomplishing our compromises with the highest quality standards, being supported by our extensive experience in the market."
+                "CONTENTS": "At LAGALM we are determined to satisfy our clients, by providing the best product and efficiency in our services. While observing and improving day by day our processes, and accomplishing our commitment through the highest quality standards, and being supported by our extensive experience in the market."
             }
         ],
         "politic": {

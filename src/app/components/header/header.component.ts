@@ -9,7 +9,7 @@ import {TranslateService} from '@ngx-translate/core';
 export class HeaderComponent {
 
   logo = {
-    route: "../../assets/lagalm-logo.svg",
+    route: "../../assets/isologo.png",
     name: 'Logo Lagalm Industrial'
   };
 

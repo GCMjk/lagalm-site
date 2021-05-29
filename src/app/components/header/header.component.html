@@ -1,9 +1,9 @@
-<header class="bg-transparent px-4 py-1 md:py-2 shadow-sm" [class.header_change]="header_variable">
+<header class="bg-white md:bg-transparent py-1 px-4 shadow-sm" [class.header_change]="header_variable">
     <div class="container mx-auto md:flex md:items-center">
 
         <div class="flex justify-between items-center">
-            <a routerLink="home"> 
-                <img class="h-10 w-auto" [src]="logo.route" [alt]="logo.name"> 
+            <a routerLink="home" class="h-full"> 
+                <img class="h-16 md:h-20 w-auto" [src]="logo.route" [alt]="logo.name"> 
             </a>
             <button
                 (click)="collapse()"
@@ -29,8 +29,8 @@
                 class="nav-item"> {{ 'nav.ABOUTUS' | translate }} </a>
             <a routerLink="services" routerLinkActive="nav-item-active"
                 class="nav-item"> {{ 'nav.SERVICES' | translate }} </a>
-            <a routerLink="contact" routerLinkActive="nav-item-active"
-                class="nav-item"> {{ 'nav.CONTACT' | translate }} </a>
+            <a routerLink="contact" routerLinkActive=""
+                class="font-fontMonts font-bold tracking-widest p-2 lg:px-4 md:mx-2 text-white hover:text-lagalm-100 bg-lagalm-100 hover:bg-transparent border border-transparent hover:border-lagalm-100 duration-500 rounded-full"> {{ 'nav.CONTACT' | translate }} </a>
 
             <div class="inline-flex justify-center items-center space-x-2 pl-0 md:pl-10 mt-10 md:mt-0">
 

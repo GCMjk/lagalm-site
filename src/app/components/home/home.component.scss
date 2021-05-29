@@ -14,7 +14,7 @@ div.landing {
 
       div.text-animation {
 
-        @apply container mx-auto -mt-16 md:-mt-20 lg:-mt-28;
+        @apply container mx-auto;
 
         h1.dml-animation {
 
@@ -32,7 +32,7 @@ div.landing {
       div.solutions {
         @apply text-center;
         p {
-          @apply text-xl text-gray-400 font-thin;
+          @apply text-xl md:text-3xl lg:text-5xl text-lagalm-400 font-thin;
         }
       }
 

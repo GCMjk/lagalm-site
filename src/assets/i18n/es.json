@@ -26,7 +26,7 @@
         "landing": {
             "DESIGN": "Diseño",
             "MANUFACTURE": "Manufactura",
-            "LOGISTICS": "Logistica",
+            "LOGISTICS": "Logística",
             "PLASINJ": "Soluciones integrales en inyección de plástico."
         },
         "section": {
@@ -50,7 +50,7 @@
         "contact": {
             "CONTACTUS": "Contactanos",
             "WECONTACT": "¿Necesitas una cotización?",
-            "ADVISER": "Un asesor te adenderá",
+            "ADVISER": "Un asesor te atenderá",
             "CONTACTS": [
                 {
                     "icon": "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",

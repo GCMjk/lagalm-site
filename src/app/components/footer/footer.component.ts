@@ -14,7 +14,7 @@ export class FooterComponent implements OnInit {
   faWhatsapp = faWhatsapp;
 
   logo = {
-    route: "../../assets/lagalm-logo.svg",
+    route: "../../assets/logo.png",
     name: "Logo Lagalm Industrial"
   };
 

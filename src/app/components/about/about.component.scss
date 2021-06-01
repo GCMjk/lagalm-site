@@ -105,7 +105,7 @@ div.about-section {
                     @apply font-semibold text-xl md:text-2xl lg:text-3xl leading-tight truncate;
                 }
                 p {
-                    @apply mt-2 text-base md:text-lg lg:text-xl;
+                    @apply mt-2 text-base md:text-lg lg:text-xl text-justify;
                 }
             }
         }

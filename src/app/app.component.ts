@@ -5,6 +5,8 @@ import { filter } from 'rxjs/operators';
 
 import { TranslateService } from '@ngx-translate/core';
 
+declare var gtag;
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,6 +22,18 @@ export class AppComponent implements OnInit, OnDestroy {
   ) {
     this.translate.setDefaultLang('es');
     this.translate.use('es');
+
+    const navEndEvents$ = this.router.events
+    .pipe(
+      filter(event => event instanceof NavigationEnd)
+    );
+
+    navEndEvents$.subscribe((event: NavigationEnd) => {
+      gtag('config', 'G-8JH8ZF5CNH', {
+        'page_path': event.urlAfterRedirects
+      });
+    });
+
   }
 
   ngOnInit(){

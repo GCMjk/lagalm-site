@@ -55,6 +55,54 @@ export class HomeComponent implements OnInit {
     }
   ];
 
+  imagesW = [
+    {
+      img: '../../../assets/images/new/wa/lgm(1).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(4).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(5).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(11).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(12).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(13).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(14).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(6).jpeg'
+    }
+
+  ];
+
+  imagesH = [
+    
+    {
+      img: '../../../assets/images/new/wa/lgm(3).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(7).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(8).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(9).jpeg'
+    },
+    {
+      img: '../../../assets/images/new/wa/lgm(10).jpeg'
+    }
+
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

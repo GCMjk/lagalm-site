@@ -1,6 +1,7 @@
 {
   "projects": {
     "default": "lagalm-website",
-    "lagalm-website": "lagalm-website"
+    "lagalm-website": "lagalm-website",
+    "lagalm-site": "lagalm-site"
   }
 }

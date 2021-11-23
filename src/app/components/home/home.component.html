@@ -536,3 +536,16 @@
     </div>
 
 </div>   -->
+
+<div class="container px-4 mx-auto mt-14">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img *ngFor="let image of imagesW" [src]="image.img" class="rounded shadow-md bg-center bg-cover">
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+        <img *ngFor="let image of imagesH" [src]="image.img" class="rounded shadow-md bg-center bg-cover">
+    </div>
+
+</div>
+
